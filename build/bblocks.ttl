@@ -1,0 +1,65 @@
+@prefix bblocks: <https://www.opengis.net/def/bblocks/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/ogc.bbr.template.my-building-block> a skos:Concept,
+        dcat:Dataset,
+        bblocks:Schema ;
+    rdfs:label "My Building Block" ;
+    dct:abstract "This Building Block serves as a template to create new ones" ;
+    dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/build/generateddocs/json-full/bbr/template/my-building-block/index.json" ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/build/generateddocs/markdown/bbr/template/my-building-block/index.md" ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/build/generateddocs/slate-build/bbr/template/my-building-block/" ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/bblock/ogc.bbr.template.my-building-block" ] ;
+    dct:hasVersion "0.1" ;
+    dct:modified "2023-04-05"^^xsd:date ;
+    dct:source <https://example.com/sources/1> ;
+    skos:inScheme <https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/> ;
+    dcat:keyword "templates" ;
+    bblocks:hasJsonLdContext <https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/build/annotated/bbr/template/my-building-block/context.jsonld> ;
+    bblocks:hasSchema <https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/build/annotated/bbr/template/my-building-block/schema.json>,
+        <https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/build/annotated/bbr/template/my-building-block/schema.yaml> ;
+    bblocks:hasSourceJsonLdContext <https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/_sources/my-building-block/context.jsonld> ;
+    bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
+    bblocks:status <http://www.opengis.net/def/status/under-development> .
+
+<https://example.com/sources/1> rdfs:label "Sample source document" .
+
+<https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/> a skos:ConceptScheme,
+        dcat:Catalog ;
+    rdfs:label "My OGC Building Blocks repository" ;
+    dct:abstract """This is an example text for the abstract. It should be short and to the point.
+A "Tell me more" link will appear if there is an additional description with a longer explanation.
+""" ;
+    dct:description """The description can be longer. Both **the abstract** *and the description* support Markdown,
+including [links](https://google.es).
+""" ;
+    skos:prefLabel "My OGC Building Blocks repository" ;
+    bblocks:hasValidationReport <https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/build/tests/report.html> ;
+    bblocks:imports <https://opengeospatial.github.io/bblocks/register.json> .
+
+[] a prov:Activity ;
+    prov:endedAtTime "2024-01-23T11:25:32.585626"^^xsd:dateTime ;
+    prov:startedAtTime "2024-01-23T11:25:32.520887"^^xsd:dateTime ;
+    prov:used [ a prov:Entity ;
+            dct:format "application/json" ;
+            rdfs:seeAlso <https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/build/register.json> ],
+        [ a prov:Entity ;
+            dct:format "application/yaml" ;
+            rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ] ;
+    prov:wasAssociatedWith [ a prov:Agent,
+                schema:SoftwareApplication ;
+            rdfs:label "OGC-NA tools" ;
+            dct:hasVersion "0.3.33" ;
+            rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> ] .
+

@@ -1,0 +1,173 @@
+{
+  "@context": [
+    {
+      "@base": "https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master"
+    },
+    {
+      "bblocks": "https://www.opengis.net/def/bblocks/",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "prof": "http://www.w3.org/ns/dx/prof/",
+      "dcat": "http://www.w3.org/ns/dcat#",
+      "itemIdentifier": "@id",
+      "baseURL": "@id",
+      "name": "rdfs:label",
+      "abstract": "dct:abstract",
+      "description": "dct:description",
+      "status": {
+        "@id": "bblocks:status",
+        "@type": "@id",
+        "@context": {
+          "@base": "http://www.opengis.net/def/status/"
+        }
+      },
+      "dateTimeAddition": {
+        "@id": "dct:created",
+        "@type": "xsd:dateTime"
+      },
+      "version": "dct:hasVersion",
+      "dateOfLastChange": {
+        "@id": "dct:modified",
+        "@type": "xsd:date"
+      },
+      "scope": {
+        "@id": "bblocks:scope",
+        "@type": "@id",
+        "@context": {
+          "@base": "http://www.opengis.net/def/bblocks/scope/"
+        }
+      },
+      "sources": {
+        "@id": "dct:source",
+        "@context": {
+          "title": "rdfs:label",
+          "link": "@id"
+        }
+      },
+      "schema": {
+        "@id": "bblocks:hasSchema",
+        "@type": "@id",
+        "@container": "@index",
+        "@index": "dct:format"
+      },
+      "ldContext": {
+        "@id": "bblocks:hasJsonLdContext",
+        "@type": "@id"
+      },
+      "sourceLdContext": {
+        "@id": "bblocks:hasSourceJsonLdContext",
+        "@type": "@id"
+      },
+      "documentation": {
+        "@id": "dct:description",
+        "@type": "@id",
+        "@container": "@index",
+        "@index": "dct:identifier",
+        "@context": {
+          "mediatype": "dct:format",
+          "url": "rdfs:isDefinedBy"
+        }
+      },
+      "hasConcepts": {
+        "@reverse": "skos:inScheme"
+      },
+      "dependsOn": {
+        "@id": "bblocks:dependsOn",
+        "@type": "@id"
+      },
+      "profileOf": {
+        "@id": "prof:isProfileOf",
+        "@type": "@id"
+      },
+      "tags": "dcat:keyword",
+      "shaclRules": {
+        "@id": "bblocks:hasShaclRule",
+        "@type": "@id",
+        "@container": "@index",
+        "@index": "rdfs:seeAlso"
+      },
+      "validationReport": {
+        "@id": "bblocks:hasValidationReport",
+        "@type": "@id"
+      },
+      "imports": {
+        "@id": "bblocks:imports",
+        "@type": "@id"
+      }
+    }
+  ],
+  "imports": [
+    "https://opengeospatial.github.io/bblocks/register.json"
+  ],
+  "baseURL": "https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/",
+  "viewerURL": "https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/",
+  "validationReport": "https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/build/tests/report.html",
+  "abstract": "This is an example text for the abstract. It should be short and to the point.\nA \"Tell me more\" link will appear if there is an additional description with a longer explanation.\n",
+  "description": "The description can be longer. Both **the abstract** *and the description* support Markdown,\nincluding [links](https://google.es).\n",
+  "name": "My OGC Building Blocks repository",
+  "@type": [
+    "skos:ConceptScheme",
+    "dcat:Catalog"
+  ],
+  "skos:prefLabel": "My OGC Building Blocks repository",
+  "hasConcepts": [
+    {
+      "itemIdentifier": "ogc.bbr.template.my-building-block",
+      "$schema": "metaschema.yaml",
+      "name": "My Building Block",
+      "abstract": "This Building Block serves as a template to create new ones",
+      "status": "under-development",
+      "dateTimeAddition": "2023-04-05T00:00:00Z",
+      "itemClass": "schema",
+      "register": "ogc-building-block-register",
+      "version": "0.1",
+      "dateOfLastChange": "2023-04-05",
+      "link": "https://github.com/opengeospatial/bblock-template",
+      "sources": [
+        {
+          "title": "Sample source document",
+          "link": "https://example.com/sources/1"
+        }
+      ],
+      "maturity": "mature",
+      "scope": "unstable",
+      "tags": [
+        "templates"
+      ],
+      "shaclRules": {},
+      "ldContext": "https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/build/annotated/bbr/template/my-building-block/context.jsonld",
+      "schema": {
+        "application/yaml": "https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/build/annotated/bbr/template/my-building-block/schema.yaml",
+        "application/json": "https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/build/annotated/bbr/template/my-building-block/schema.json"
+      },
+      "sourceLdContext": "https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/_sources/my-building-block/context.jsonld",
+      "sourceFiles": "https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/_sources/my-building-block/",
+      "validationPassed": true,
+      "documentation": {
+        "json-full": {
+          "mediatype": "application/json",
+          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/build/generateddocs/json-full/bbr/template/my-building-block/index.json"
+        },
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/build/generateddocs/markdown/bbr/template/my-building-block/index.md"
+        },
+        "slate": {
+          "mediatype": "text/html",
+          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/build/generateddocs/slate-build/bbr/template/my-building-block/"
+        },
+        "bblocks-viewer": {
+          "mediatype": "text/html",
+          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/bblock/ogc.bbr.template.my-building-block"
+        }
+      },
+      "@type": [
+        "bblocks:Schema",
+        "skos:Concept",
+        "dcat:Dataset"
+      ]
+    }
+  ]
+}
