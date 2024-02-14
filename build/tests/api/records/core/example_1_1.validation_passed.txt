@@ -1,0 +1,10 @@
+Validation report for ogc.api.records.core - OGC API Records - Record Schema
+Generated 2024-02-14T08:55:13.518441+00:00
+=== Files ===
+Using example_1_1.json from examples
+=== End Files ===
+
+=== JSON Schema ===
+Validation passed
+=== End JSON Schema ===
+
