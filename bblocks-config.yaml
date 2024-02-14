@@ -1,18 +1,18 @@
 # A short, descriptive name of this building block collection
-name: My OGC Building Blocks repository
+name: OGC API Records
 
 # Short abstract for this collection (optional)
 abstract: |
-  This is an example text for the abstract. It should be short and to the point.
-  A "Tell me more" link will appear if there is an additional description with a longer explanation.
+  Building Blocks for OGC API Records, components and extensions
 
 # Description for this collection (optional)
 description: |
-  The description can be longer. Both **the abstract** *and the description* support Markdown,
-  including [links](https://google.es).
+  A set of Building Blocks to allow reuse, testing and documentation of elements and extensions of OGC API Records.
+  
+  These are re-used by the [GeoDCAT implementation](../geodcat-ogc-api-records), binding Records schemas to DCAT and GeoDCAT ontologies.
 
 # Customize the following prefix (will be prepended to the path of the building blocks):
-identifier-prefix: ogc.bbr.template.
+identifier-prefix: ogc.api.records
 
 # List of imports ("default" is an alias for the main OGC Building Blocks Register)
 imports:
