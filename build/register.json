@@ -2,7 +2,7 @@
   "name": "OGC API Records",
   "abstract": "Building Blocks for OGC API Records, components and extensions\n",
   "description": "A set of Building Blocks to allow reuse, testing and documentation of elements and extensions of OGC API Records.\n\nThese are re-used by the [GeoDCAT implementation](../geodcat-ogc-api-records), binding Records schemas to DCAT and GeoDCAT ontologies.\n",
-  "modified": "2024-02-14T08:55:10.375569",
+  "modified": "2024-02-14T09:05:46.247171",
   "tooling": {
     "bblocks-postprocess": {
       "commitId": "\"14ee607a3043861f45036785e2601c2f26d55790",
@@ -12,9 +12,9 @@
   },
   "gitRepository": "https://github.com/ogcincubator/bblocks-ogcapi-records",
   "gitHubRepository": "https://github.com/ogcincubator/bblocks-ogcapi-records/blob/master/",
-  "baseURL": "https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/",
-  "viewerURL": "https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/",
-  "validationReport": "https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/build/tests/report.html",
+  "baseURL": "https://ogcincubator.github.io/bblocks-ogcapi-records/",
+  "viewerURL": "https://ogcincubator.github.io/bblocks-ogcapi-records/",
+  "validationReport": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/tests/report.html",
   "imports": [
     "https://opengeospatial.github.io/bblocks/register.json"
   ],
@@ -49,29 +49,29 @@
       ],
       "shaclRules": {},
       "schema": {
-        "application/yaml": "https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/build/annotated/api/records/core/schema.yaml",
-        "application/json": "https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/build/annotated/api/records/core/schema.json"
+        "application/yaml": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/core/schema.yaml",
+        "application/json": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/core/schema.json"
       },
-      "sourceSchema": "https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/_sources/core/schema.yaml",
-      "sourceFiles": "https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/_sources/core/",
+      "sourceSchema": "https://ogcincubator.github.io/bblocks-ogcapi-records/_sources/core/schema.yaml",
+      "sourceFiles": "https://ogcincubator.github.io/bblocks-ogcapi-records/_sources/core/",
       "validationPassed": true,
       "testOutputs": "https://github.com/ogcincubator/bblocks-ogcapi-records/blob/master/build/tests/api/records/core/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/build/generateddocs/markdown/api/records/core/index.md"
+          "url": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/generateddocs/markdown/api/records/core/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/build/generateddocs/json-full/api/records/core/index.json"
+          "url": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/generateddocs/json-full/api/records/core/index.json"
         },
         "slate": {
           "mediatype": "text/html",
-          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/build/generateddocs/slate-build/api/records/core/"
+          "url": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/generateddocs/slate-build/api/records/core/"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/bblock/ogc.api.records.core"
+          "url": "https://ogcincubator.github.io/bblocks-ogcapi-records/bblock/ogc.api.records.core"
         }
       }
     }

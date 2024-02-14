@@ -278,8 +278,8 @@ OGC API Record schema as a building block, with documented examples.
 
 <blockquote class="lang-specific json">
   <p class="example-links">
-    <a target="_blank" href="https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/build/tests/api/records/core/example_1_1.json">Open in new window</a>
-    <a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=json&amp;dataUrl=https%3A%2F%2Fraw.githubusercontent.com%2Fogcincubator%2Fbblocks-ogcapi-records%2Fmaster%2Fbuild%2Ftests%2Fapi%2Frecords%2Fcore%2Fexample_1_1.json&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on JSON Viewer</a></p>
+    <a target="_blank" href="https://ogcincubator.github.io/bblocks-ogcapi-records/build/tests/api/records/core/example_1_1.json">Open in new window</a>
+    <a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=json&amp;dataUrl=https%3A%2F%2Fogcincubator.github.io%2Fbblocks-ogcapi-records%2Fbuild%2Ftests%2Fapi%2Frecords%2Fcore%2Fexample_1_1.json&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on JSON Viewer</a></p>
 </blockquote>
 
 
@@ -296,12 +296,12 @@ allOf:
 
 ```
 
-> <a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=yaml&amp;dataUrl=https%3A%2F%2Fraw.githubusercontent.com%2Fogcincubator%2Fbblocks-ogcapi-records%2Fmaster%2Fbuild%2Fannotated%2Fapi%2Frecords%2Fcore%2Fschema.yaml&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on YAML Viewer</a>
+> <a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=yaml&amp;dataUrl=https%3A%2F%2Fogcincubator.github.io%2Fbblocks-ogcapi-records%2Fbuild%2Fannotated%2Fapi%2Frecords%2Fcore%2Fschema.yaml&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on YAML Viewer</a>
 
 Links to the schema:
 
-* YAML version: <a href="https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/build/annotated/api/records/core/schema.yaml" target="_blank">https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/build/annotated/api/records/core/schema.yaml</a>
-* JSON version: <a href="https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/build/annotated/api/records/core/schema.json" target="_blank">https://raw.githubusercontent.com/ogcincubator/bblocks-ogcapi-records/master/build/annotated/api/records/core/schema.json</a>
+* YAML version: <a href="https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/core/schema.yaml" target="_blank">https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/core/schema.yaml</a>
+* JSON version: <a href="https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/core/schema.json" target="_blank">https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/core/schema.json</a>
 
 # References
 
