@@ -11,8 +11,7 @@ description: |
   
   These are re-used by the [GeoDCAT implementation](../geodcat-ogc-api-records), binding Records schemas to DCAT and GeoDCAT ontologies.
 
-# Customize the following prefix (will be prepended to the path of the building blocks):
-identifier-prefix: ogc.api.records
+identifier-prefix: ogc.api.records.
 
 # List of imports ("default" is an alias for the main OGC Building Blocks Register)
 imports:
