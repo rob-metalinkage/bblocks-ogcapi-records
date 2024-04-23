@@ -2,7 +2,7 @@
   "name": "OGC API Records",
   "abstract": "Building Blocks for OGC API Records, components and extensions\n",
   "description": "A set of Building Blocks to allow reuse, testing and documentation of elements and extensions of OGC API Records.\n\nThese are re-used by the [GeoDCAT implementation](../geodcat-ogc-api-records), binding Records schemas to DCAT and GeoDCAT ontologies.\n",
-  "modified": "2024-04-23T06:05:16.617084",
+  "modified": "2024-04-23T07:32:08.562366",
   "tooling": {
     "bblocks-postprocess": {
       "commitId": "\"e4a611ba98dc47cf5ffb659b73d79151289b1133",
