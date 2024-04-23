@@ -3,6 +3,9 @@
   "description": "Normative records schema",
   "allOf": [
     {
+      "$ref": "https://opengeospatial.github.io/bblocks/annotated-schemas/geo/common/data_types/geojson/schema.json"
+    },
+    {
       "$ref": "https://raw.githubusercontent.com/opengeospatial/ogcapi-records/master/core/openapi/schemas/recordGeoJSON.yaml"
     }
   ]

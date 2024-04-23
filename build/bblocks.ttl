@@ -13,21 +13,23 @@
     rdfs:label "OGC API Records - Record Schema" ;
     dct:abstract "Examples and documentation for the OGC API Records spec Record schema component." ;
     dct:created "2023-09-18T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-ogcapi-records/bblock/ogc.api.records.core" ],
-        [ dct:format "application/json" ;
+    dct:description [ dct:format "application/json" ;
             rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-ogcapi-records/build/generateddocs/json-full/api/records/core/index.json" ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-ogcapi-records/bblock/ogc.api.records.core" ],
         [ dct:format "text/html" ;
             rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-ogcapi-records/build/generateddocs/slate-build/api/records/core/" ],
         [ dct:format "text/markdown" ;
             rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-ogcapi-records/build/generateddocs/markdown/api/records/core/index.md" ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2024-02-14"^^xsd:date ;
+    dct:modified "2024-04-23"^^xsd:date ;
     dct:source <https://github.com/opengeospatial/ogcapi-records> ;
     skos:inScheme <https://ogcincubator.github.io/bblocks-ogcapi-records/> ;
     dcat:keyword "Metadata",
         "OGC API",
         "Records" ;
+    bblocks:dependsOn <https://ogcincubator.github.io/ogc.geo.common.data_types.geojson> ;
+    bblocks:hasJsonLdContext <https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/core/context.jsonld> ;
     bblocks:hasSchema <https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/core/schema.json>,
         <https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/core/schema.yaml> ;
     bblocks:scope <http://www.opengis.net/def/bblocks/scope/dev> ;
@@ -49,15 +51,15 @@ These are re-used by the [GeoDCAT implementation](../geodcat-ogc-api-records), b
     bblocks:imports <https://opengeospatial.github.io/bblocks/register.json> .
 
 [] a prov:Activity ;
-    prov:endedAtTime "2024-04-21T23:42:06.064352"^^xsd:dateTime ;
-    prov:startedAtTime "2024-04-21T23:42:06.006090"^^xsd:dateTime ;
+    prov:endedAtTime "2024-04-23T06:05:21.455412"^^xsd:dateTime ;
+    prov:startedAtTime "2024-04-23T06:05:21.398414"^^xsd:dateTime ;
     prov:used [ a prov:Entity ;
-            dct:format "application/json" ;
-            dct:hasVersion "git:a46a73b0e1d41d47a9fbeb03c53cfd1e8c2108fa" ;
-            rdfs:seeAlso <https://ogcincubator.github.io/bblocks-ogcapi-records/build/register.json> ],
-        [ a prov:Entity ;
             dct:format "application/yaml" ;
-            rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ] ;
+            rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ],
+        [ a prov:Entity ;
+            dct:format "application/json" ;
+            dct:hasVersion "git:339083e566fdfcf6920058cd0c81191cf1599a4d" ;
+            rdfs:seeAlso <https://ogcincubator.github.io/bblocks-ogcapi-records/build/register.json> ] ;
     prov:wasAssociatedWith [ a prov:Agent,
                 schema:SoftwareApplication ;
             rdfs:label "OGC-NA tools" ;

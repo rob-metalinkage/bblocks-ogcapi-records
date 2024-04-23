@@ -1,0 +1,9 @@
+@prefix geojson: <https://purl.org/geojson/vocab#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:x-wmo:md:int.wmo.wis::https://geo.woudc.org/def/data/ozone/total-column-ozone/totalozone> a <file:///github/workspace/dataset>,
+        geojson:Feature ;
+    geojson:geometry [ a geojson:Polygon ;
+            geojson:coordinates ( ( ( -180 -90 ) ( -180 90 ) ( 180 90 ) ( 180 -90 ) ( -180 -90 ) ) ) ] .
+
