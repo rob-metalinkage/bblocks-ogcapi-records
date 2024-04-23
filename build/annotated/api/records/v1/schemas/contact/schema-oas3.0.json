@@ -1,0 +1,205 @@
+{
+  "x-defs": {
+    "ogc.api.records.v1.schemas.contact": {
+      "type": "object",
+      "description": "Identification of, and means of communication with, person responsible\nfor the resource.",
+      "anyOf": [
+        {
+          "required": [
+            "name"
+          ]
+        },
+        {
+          "required": [
+            "organization"
+          ]
+        }
+      ],
+      "properties": {
+        "identifier": {
+          "type": "string",
+          "description": "A value uniquely identifying a contact."
+        },
+        "name": {
+          "type": "string",
+          "description": "The name of the responsible person."
+        },
+        "position": {
+          "type": "string",
+          "description": "The name of the role or position of the responsible person taken from the organization's formal organizational hierarchy or chart."
+        },
+        "organization": {
+          "type": "string",
+          "description": "Organization/affiliation of the contact."
+        },
+        "logo": {
+          "description": "Graphic identifying a contact. The link relation should be `icon` and the media type should be an image media type.",
+          "allOf": [
+            {
+              "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/contact/schema-oas3.0.json#/x-defs/schemas.opengis.net_ogcapi_features_part1_1.0_openapi_schemas_link.yaml"
+            },
+            {
+              "type": "object",
+              "required": [
+                "rel",
+                "type"
+              ],
+              "properties": {
+                "rel": {
+                  "enum": [
+                    "icon"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "phones": {
+          "type": "array",
+          "description": "Telephone numbers at which contact can be made.",
+          "items": {
+            "type": "object",
+            "required": [
+              "value"
+            ],
+            "properties": {
+              "value": {
+                "type": "string",
+                "description": "The value is the phone number itself.",
+                "pattern": "^\\+[1-9]{1}[0-9]{3,14}$",
+                "example": "+14165550142"
+              },
+              "roles": {}
+            }
+          }
+        },
+        "emails": {
+          "type": "array",
+          "description": "Email addresses at which contact can be made.",
+          "items": {
+            "type": "object",
+            "required": [
+              "value"
+            ],
+            "properties": {
+              "value": {
+                "type": "string",
+                "description": "The value is the email number itself.",
+                "format": "email"
+              },
+              "roles": {}
+            }
+          }
+        },
+        "addresses": {
+          "type": "array",
+          "description": "Physical location at which contact can be made.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "deliveryPoint": {
+                "type": "array",
+                "description": "Address lines for the location.",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "city": {
+                "type": "string",
+                "description": "City for the location."
+              },
+              "administrativeArea": {
+                "type": "string",
+                "description": "State or province of the location."
+              },
+              "postalCode": {
+                "type": "string",
+                "description": "ZIP or other postal code."
+              },
+              "country": {
+                "type": "string",
+                "description": "Country of the physical address.  ISO 3166-1 is recommended."
+              },
+              "roles": {}
+            }
+          }
+        },
+        "links": {
+          "type": "array",
+          "description": "On-line information about the contact.",
+          "items": {
+            "allOf": [
+              {
+                "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/contact/schema-oas3.0.json#/x-defs/schemas.opengis.net_ogcapi_features_part1_1.0_openapi_schemas_link.yaml"
+              },
+              {
+                "type": "object",
+                "required": [
+                  "type"
+                ]
+              }
+            ]
+          }
+        },
+        "hoursOfService": {
+          "type": "string",
+          "description": "Time period when the contact can be contacted.",
+          "example": "Hours: Mo-Fr 10am-7pm Sa 10am-22pm Su 10am-21pm"
+        },
+        "contactInstructions": {
+          "type": "string",
+          "description": "Supplemental instructions on how or when to contact the\nresponsible party."
+        },
+        "roles": {}
+      },
+      "x-schema-source": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/contact/schema-oas3.0.json"
+    },
+    "schemas.opengis.net_ogcapi_features_part1_1.0_openapi_schemas_link.yaml": {
+      "type": "object",
+      "required": [
+        "href",
+        "rel"
+      ],
+      "properties": {
+        "href": {
+          "type": "string",
+          "example": "http://data.example.com/buildings/123"
+        },
+        "rel": {
+          "type": "string",
+          "example": "alternate"
+        },
+        "type": {
+          "type": "string",
+          "example": "application/geo+json"
+        },
+        "hreflang": {
+          "type": "string",
+          "example": "en"
+        },
+        "title": {
+          "type": "string",
+          "example": "Trierer Strasse 70, 53115 Bonn"
+        },
+        "length": {
+          "type": "integer"
+        }
+      },
+      "x-schema-source": "https://schemas.opengis.net/ogcapi/features/part1/1.0/openapi/schemas/link.yaml"
+    },
+    "ogcincubator.github.io_bblocks-ogcapi-records_build_annotated_api_records_v1_schemas_roles_schema.json": {
+      "description": "The list of duties, job functions or permissions assigned by the system and associated with the context of this member.",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      },
+      "x-schema-source": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/roles/schema.json"
+    }
+  },
+  "allOf": [
+    {
+      "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/contact/schema-oas3.0.json#/x-defs/ogc.api.records.v1.schemas.contact"
+    }
+  ]
+}
