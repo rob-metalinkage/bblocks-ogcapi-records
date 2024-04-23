@@ -1,0 +1,38 @@
+
+
+{
+  "itemIdentifier": "ogc.api.records.schemas.recordsGeoJSON",
+  "name": "Schema for recordsGeoJSON",
+  "status": "under-development",
+  "dateTimeAddition": "2024-01-23T12:40:00+01:00",
+  "itemClass": "schema",
+  "register": "ogcapi-records",
+  "version": "0.1",
+  "dateOfLastChange": "2024-04-23",
+  "sources": [
+    {
+      "title": "OGC API Records - Draft",
+      "link": "https://docs.ogc.org/DRAFTS/20-004.html"
+    }
+  ],
+  "tags": [
+    "ogcapi-records",
+    "records"
+  ],
+  "schema": {
+    "application/yaml": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/schemas/recordsGeoJSON/schema.yaml",
+    "application/json": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/schemas/recordsGeoJSON/schema.json"
+  },
+  "abstract": "This building block corresponds to the schema for an OGC API Records recordsGeoJSON",
+  "shaclRules": {},
+  "dependsOn": [
+    "ogc.api.records.schemas.linkTemplate",
+    "ogc.api.records.schemas.recordGeoJSON"
+  ],
+  "sourceSchema": "https://github.com/opengeospatial/ogcapi-records/raw/master/core/openapi/schemas/recordsGeoJSON.yaml",
+  "sourceFiles": "https://ogcincubator.github.io/bblocks-ogcapi-records/_sources/schemas/recordsGeoJSON/",
+  "validationPassed": true,
+  "annotatedSchema": "allOf:\n- $ref: https://schemas.opengis.net/ogcapi/features/part1/1.0/openapi/schemas/featureCollectionGeoJSON.yaml\n- type: object\n  properties:\n    features:\n      type: array\n      items:\n        $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/schemas/recordGeoJSON/schema.yaml\n    linkTemplates:\n      type: array\n      items:\n        $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/schemas/linkTemplate/schema.yaml\n",
+  "gitRepository": "https://github.com/ogcincubator/bblocks-ogcapi-records",
+  "gitPath": "_sources/schemas/recordsGeoJSON"
+}

@@ -1,0 +1,78 @@
+{
+  "x-defs": {
+    "ogc.api.records.schemas.linkTemplate": {
+      "allOf": [
+        {
+          "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/schemas/linkTemplate/schema-oas3.0.json#/x-defs/ogcincubator.github.io_bblocks-ogcapi-records_build_annotated_api_records_schemas_linkBase_schema.json"
+        },
+        {
+          "type": "object",
+          "required": [
+            "uriTemplate"
+          ],
+          "properties": {
+            "uriTemplate": {
+              "type": "string",
+              "description": "Supplies a resolvable URI to a remote resource (or resource fragment).",
+              "example": "http://data.example.com/buildings/(building-id}"
+            },
+            "varBase": {
+              "type": "string",
+              "description": "The base URI to which the variable name can be appended to retrieve the definition of the variable as a JSON Schema fragment.",
+              "format": "url"
+            },
+            "variables": {
+              "type": "object",
+              "description": "This object contains one key per substitution variable in the templated URL.  Each key defines the schema of one substitution variable using a JSON Schema fragment and can thus include things like the data type of the variable, enumerations, minimum values, maximum values, etc."
+            }
+          }
+        }
+      ],
+      "x-schema-source": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/schemas/linkTemplate/schema-oas3.0.json"
+    },
+    "ogcincubator.github.io_bblocks-ogcapi-records_build_annotated_api_records_schemas_linkBase_schema.json": {
+      "type": "object",
+      "properties": {
+        "rel": {
+          "type": "string",
+          "description": "The type or semantics of the relation.",
+          "example": "alternate"
+        },
+        "type": {
+          "type": "string",
+          "description": "A hint indicating what the media type of the result of dereferencing the link should be.",
+          "example": "application/geo+json"
+        },
+        "hreflang": {
+          "type": "string",
+          "description": "A hint indicating what the language of the result of dereferencing the link should be.",
+          "example": "en"
+        },
+        "title": {
+          "type": "string",
+          "description": "Used to label the destination of a link such that it can be used as a human-readable identifier.",
+          "example": "Trierer Strasse 70, 53115 Bonn"
+        },
+        "length": {
+          "type": "integer"
+        },
+        "created": {
+          "type": "string",
+          "description": "Date of creation of the resource pointed to by the link.",
+          "format": "date-time"
+        },
+        "updated": {
+          "type": "string",
+          "description": "Most recent date on which the resource pointed to by the link was changed.",
+          "format": "date-time"
+        }
+      },
+      "x-schema-source": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/schemas/linkBase/schema.json"
+    }
+  },
+  "allOf": [
+    {
+      "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/schemas/linkTemplate/schema-oas3.0.json#/x-defs/ogc.api.records.schemas.linkTemplate"
+    }
+  ]
+}

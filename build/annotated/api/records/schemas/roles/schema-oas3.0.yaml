@@ -1,0 +1,11 @@
+x-defs:
+  ogc.api.records.schemas.roles:
+    description: The list of duties, job functions or permissions assigned by the
+      system and associated with the context of this member.
+    type: array
+    minItems: 1
+    items:
+      type: string
+    x-schema-source: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/schemas/roles/schema-oas3.0.yaml
+allOf:
+- $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/schemas/roles/schema-oas3.0.yaml#/x-defs/ogc.api.records.schemas.roles
