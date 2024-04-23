@@ -1,13 +1,13 @@
-# OGC Building Block template
+# OGC API Records Building Blocks
 
-This template provides a working example of an OGC BuildingBlock.
+This repository defines composable Building Blocks for the OGC API Records specification.
 
-[Examples of using this with typical applications of OGC standards](https://github.com/ogcincubator/bblocks-examples)
+It is based on OGC API Features.
 
-Please replace the contents of this README with information about your Building Block(s).
+TBD: refactor commonalities with OGC API Common
 
-# How to use this template
+# Building blocks documentation
 
-[More information on design and usage](https://github.com/opengeospatial/bblock-template/blob/master/USAGE.md)
+[More information on design and usage](https://ogcincubator.github.io/bblocks-docs/)
 
 
