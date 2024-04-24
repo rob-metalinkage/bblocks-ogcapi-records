@@ -1,0 +1,142 @@
+path	@id
+/links	
+/links/href	http://www.w3.org/ns/oa#hasTarget
+/links/rel	http://www.iana.org/assignments/relation
+/links/type	http://purl.org/dc/terms/type
+/links/hreflang	http://purl.org/dc/terms/language
+/links/title	http://www.w3.org/2000/01/rdf-schema#label
+/links/length	http://purl.org/dc/terms/extent
+/collections	
+/collections/id	
+/collections/title	
+/collections/description	
+/collections/links	
+/collections/links/href	http://www.w3.org/ns/oa#hasTarget
+/collections/links/rel	http://www.iana.org/assignments/relation
+/collections/links/type	http://purl.org/dc/terms/type
+/collections/links/hreflang	http://purl.org/dc/terms/language
+/collections/links/title	http://www.w3.org/2000/01/rdf-schema#label
+/collections/links/length	http://purl.org/dc/terms/extent
+/collections/extent	
+/collections/extent/spatial	
+/collections/extent/spatial/bbox	
+/collections/extent/spatial/crs	
+/collections/extent/temporal	
+/collections/extent/temporal/interval	
+/collections/extent/temporal/trs	
+/collections/itemType	
+/collections/crs	
+/links/anchor	
+/collections/links/anchor	
+/features	
+/features/id	
+/features/conformsTo	
+/features/type	
+/features/time	
+/features/time/date	
+/features/time/timestamp	
+/features/time/interval	
+/features/time/resolution	
+/features/geometry	
+/features/geometry/type	
+/features/geometry/coordinates	
+/features/geometry/geometries	
+/features/properties	
+/features/properties/created	
+/features/properties/updated	
+/features/properties/type	
+/features/properties/title	
+/features/properties/description	
+/features/properties/keywords	
+/features/properties/language	
+/features/properties/language/code	
+/features/properties/language/name	
+/features/properties/language/alternate	
+/features/properties/language/dir	
+/features/properties/languages	
+/features/properties/languages/code	
+/features/properties/languages/name	
+/features/properties/languages/alternate	
+/features/properties/languages/dir	
+/features/properties/resourceLanguages	
+/features/properties/resourceLanguages/code	
+/features/properties/resourceLanguages/name	
+/features/properties/resourceLanguages/alternate	
+/features/properties/resourceLanguages/dir	
+/features/properties/externalIds	
+/features/properties/externalIds/scheme	
+/features/properties/externalIds/value	
+/features/properties/themes	
+/features/properties/themes/concepts	
+/features/properties/themes/concepts/id	
+/features/properties/themes/concepts/title	
+/features/properties/themes/concepts/description	
+/features/properties/themes/concepts/url	
+/features/properties/themes/scheme	
+/features/properties/formats	
+/features/properties/contacts	
+/features/properties/contacts/identifier	
+/features/properties/contacts/name	
+/features/properties/contacts/position	
+/features/properties/contacts/organization	
+/features/properties/contacts/logo	
+/features/properties/contacts/logo/href	
+/features/properties/contacts/logo/rel	
+/features/properties/contacts/logo/type	
+/features/properties/contacts/logo/hreflang	
+/features/properties/contacts/logo/title	
+/features/properties/contacts/logo/length	
+/features/properties/contacts/phones	
+/features/properties/contacts/phones/value	
+/features/properties/contacts/phones/roles	
+/features/properties/contacts/emails	
+/features/properties/contacts/emails/value	
+/features/properties/contacts/emails/roles	
+/features/properties/contacts/addresses	
+/features/properties/contacts/addresses/deliveryPoint	
+/features/properties/contacts/addresses/city	
+/features/properties/contacts/addresses/administrativeArea	
+/features/properties/contacts/addresses/postalCode	
+/features/properties/contacts/addresses/country	
+/features/properties/contacts/addresses/roles	
+/features/properties/contacts/links	
+/features/properties/contacts/links/href	
+/features/properties/contacts/links/rel	
+/features/properties/contacts/links/type	
+/features/properties/contacts/links/hreflang	
+/features/properties/contacts/links/title	
+/features/properties/contacts/links/length	
+/features/properties/contacts/hoursOfService	
+/features/properties/contacts/contactInstructions	
+/features/properties/contacts/roles	
+/features/properties/license	
+/features/properties/rights	
+/features/links	
+/features/links/href	
+/features/links/rel	
+/features/links/type	
+/features/links/hreflang	
+/features/links/title	
+/features/links/length	
+/features/linkTemplates	
+/features/linkTemplates/rel	
+/features/linkTemplates/type	
+/features/linkTemplates/hreflang	
+/features/linkTemplates/title	
+/features/linkTemplates/length	
+/features/linkTemplates/created	
+/features/linkTemplates/updated	
+/features/linkTemplates/uriTemplate	
+/features/linkTemplates/varBase	
+/features/linkTemplates/variables	
+/linkTemplates	
+/linkTemplates/rel	
+/linkTemplates/type	
+/linkTemplates/hreflang	
+/linkTemplates/title	
+/linkTemplates/length	
+/linkTemplates/created	
+/linkTemplates/updated	
+/linkTemplates/uriTemplate	
+/linkTemplates/varBase	
+/linkTemplates/variables	
