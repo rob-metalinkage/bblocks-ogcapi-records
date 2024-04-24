@@ -1,4 +1,8 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+description: Normative records schema - adapted from https://raw.githubusercontent.com/opengeospatial/ogcapi-records/master/core/openapi/schemas/recordGeoJSON.yaml
 type: object
+allOf:
+- $ref: https://opengeospatial.github.io/bblocks/annotated-schemas/geo/features/feature/schema.yaml
 required:
 - id
 - type
@@ -27,7 +31,7 @@ properties:
     oneOf:
     - enum:
       - null
-    - $ref: https://schemas.opengis.net/ogcapi/features/part1/1.0/openapi/schemas/geometryGeoJSON.yaml
+    - $ref: https://opengeospatial.github.io/bblocks/annotated-schemas/geo/common/data_types/geojson/schema.yaml#/properties/geometry
   properties:
     type: object
     required:
@@ -117,7 +121,7 @@ properties:
   links:
     type: array
     items:
-      $ref: https://schemas.opengis.net/ogcapi/features/part1/1.0/openapi/schemas/link.yaml
+      $ref: https://opengeospatial.github.io/bblocks/annotated-schemas/ogc-utils/json-link/schema.yaml
   linkTemplates:
     type: array
     items:

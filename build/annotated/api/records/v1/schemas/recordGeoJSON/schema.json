@@ -1,5 +1,12 @@
 {
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Normative records schema - adapted from https://raw.githubusercontent.com/opengeospatial/ogcapi-records/master/core/openapi/schemas/recordGeoJSON.yaml",
   "type": "object",
+  "allOf": [
+    {
+      "$ref": "https://opengeospatial.github.io/bblocks/annotated-schemas/geo/features/feature/schema.json"
+    }
+  ],
   "required": [
     "id",
     "type",
@@ -45,7 +52,7 @@
           ]
         },
         {
-          "$ref": "https://schemas.opengis.net/ogcapi/features/part1/1.0/openapi/schemas/geometryGeoJSON.yaml"
+          "$ref": "https://opengeospatial.github.io/bblocks/annotated-schemas/geo/common/data_types/geojson/schema.json#/properties/geometry"
         }
       ]
     },
@@ -158,7 +165,7 @@
     "links": {
       "type": "array",
       "items": {
-        "$ref": "https://schemas.opengis.net/ogcapi/features/part1/1.0/openapi/schemas/link.yaml"
+        "$ref": "https://opengeospatial.github.io/bblocks/annotated-schemas/ogc-utils/json-link/schema.json"
       }
     },
     "linkTemplates": {

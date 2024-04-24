@@ -27,9 +27,9 @@
   "shaclRules": {},
   "dependsOn": [
     "ogc.api.records.v1.schemas.contact",
-    "ogc.api.records.v1.schemas.linkTemplate",
     "ogc.api.records.v1.schemas.theme",
     "ogc.api.records.v1.schemas.license",
+    "ogc.api.records.v1.schemas.linkTemplate",
     "ogc.api.records.v1.schemas.language"
   ],
   "sourceSchema": "https://github.com/opengeospatial/ogcapi-records/raw/master/core/openapi/schemas/catalog.yaml",
