@@ -1,0 +1,16 @@
+"$schema": https://json-schema.org/draft/2020-12/schema
+description: 'Adapted from https://raw.githubusercontent.com/opengeospatial/ogcapi-records/master/core/openapi/schemas/recordGeoJSON.yaml'
+allOf:
+  - $ref: bblocks://ogc.api.features.v1.schemas.collections
+  - type: object
+    properties:
+      features:
+        type: array
+        items:
+          $ref: bblocks://ogc.api.records.v1.schemas.recordGeoJSON
+      linkTemplates:
+        type: array
+        items:
+          $ref: bblocks://ogc.api.records.v1.schemas.linkTemplate
+
+

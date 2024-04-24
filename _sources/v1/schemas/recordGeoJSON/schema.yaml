@@ -32,7 +32,7 @@ properties:
     oneOf:
       - enum:
         - null
-      - $ref: 'https://schemas.opengis.net/ogcapi/features/part1/1.0/openapi/schemas/geometryGeoJSON.yaml'
+      - $ref: 'https://geojson.org/schema/Feature.json#/properties/geometry'
   properties:
     type: object
     required:
