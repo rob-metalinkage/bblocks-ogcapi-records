@@ -1,6 +1,6 @@
 {
   "x-defs": {
-    "ogc.api.records.v1.schemas.linkBase": {
+    "_github_workspace_build_annotated_api_records_v1_schemas_linkBase_schema.json": {
       "type": "object",
       "properties": {
         "rel": {
@@ -42,7 +42,7 @@
   },
   "allOf": [
     {
-      "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/linkBase/schema-oas3.0.json#/x-defs/ogc.api.records.v1.schemas.linkBase"
+      "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/linkBase/schema-oas3.0.json#/x-defs/_github_workspace_build_annotated_api_records_v1_schemas_linkBase_schema.json"
     }
   ]
 }

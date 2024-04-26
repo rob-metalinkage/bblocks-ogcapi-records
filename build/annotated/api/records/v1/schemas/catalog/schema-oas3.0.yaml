@@ -1,5 +1,5 @@
 x-defs:
-  ogc.api.records.v1.schemas.catalog:
+  _github_workspace_build_annotated_api_records_v1_schemas_catalog_schema.yaml:
     allOf:
     - $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema-oas3.0.yaml#/x-defs/schemas.opengis.net_ogcapi_features_part1_1.0_openapi_schemas_collection.yaml
     - type: object
@@ -17,20 +17,20 @@ x-defs:
           oneOf:
           - type: string
             enum:
-            - record
-            - catalog
+            - Record
+            - Catalog
           - type: array
             items:
               type: string
               enum:
-              - record
-              - catalog
+              - Record
+              - Catalog
         type:
           descripton: Fixed to catalog for collections of records and/or subordinate
             catalogs.
           type: string
           enum:
-          - catalog
+          - Catalog
         keywords:
           type: array
           description: The topic or topics of the resource. Typically represented
@@ -623,4 +623,4 @@ x-defs:
         format: date-time
     x-schema-source: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/linkBase/schema.yaml
 allOf:
-- $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema-oas3.0.yaml#/x-defs/ogc.api.records.v1.schemas.catalog
+- $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema-oas3.0.yaml#/x-defs/_github_workspace_build_annotated_api_records_v1_schemas_catalog_schema.yaml

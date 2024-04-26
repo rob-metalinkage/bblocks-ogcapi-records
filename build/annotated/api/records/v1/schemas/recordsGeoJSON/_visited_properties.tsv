@@ -2,6 +2,7 @@ path	@id
 /links	
 /links/href	http://www.w3.org/ns/oa#hasTarget
 /links/rel	http://www.iana.org/assignments/relation
+/links/anchor	
 /links/type	http://purl.org/dc/terms/type
 /links/hreflang	http://purl.org/dc/terms/language
 /links/title	http://www.w3.org/2000/01/rdf-schema#label
@@ -13,6 +14,7 @@ path	@id
 /collections/links	
 /collections/links/href	http://www.w3.org/ns/oa#hasTarget
 /collections/links/rel	http://www.iana.org/assignments/relation
+/collections/links/anchor	
 /collections/links/type	http://purl.org/dc/terms/type
 /collections/links/hreflang	http://purl.org/dc/terms/language
 /collections/links/title	http://www.w3.org/2000/01/rdf-schema#label
@@ -26,8 +28,6 @@ path	@id
 /collections/extent/temporal/trs	
 /collections/itemType	
 /collections/crs	
-/links/anchor	
-/collections/links/anchor	
 /features	
 /features/id	@id
 /features/conformsTo	

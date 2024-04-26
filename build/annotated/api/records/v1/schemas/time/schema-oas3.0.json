@@ -1,6 +1,6 @@
 {
   "x-defs": {
-    "ogc.api.records.v1.schemas.time": {
+    "_github_workspace_build_annotated_api_records_v1_schemas_time_schema.json": {
       "type": "object",
       "nullable": true,
       "properties": {
@@ -48,7 +48,7 @@
   },
   "allOf": [
     {
-      "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/time/schema-oas3.0.json#/x-defs/ogc.api.records.v1.schemas.time"
+      "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/time/schema-oas3.0.json#/x-defs/_github_workspace_build_annotated_api_records_v1_schemas_time_schema.json"
     }
   ]
 }

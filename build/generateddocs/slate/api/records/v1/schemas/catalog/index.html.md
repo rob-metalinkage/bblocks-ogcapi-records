@@ -49,19 +49,19 @@ allOf:
       oneOf:
       - type: string
         enum:
-        - record
-        - catalog
+        - Record
+        - Catalog
       - type: array
         items:
           type: string
           enum:
-          - record
-          - catalog
+          - Record
+          - Catalog
     type:
       descripton: Fixed to catalog for collections of records and/or subordinate catalogs.
       type: string
       enum:
-      - catalog
+      - Catalog
     keywords:
       type: array
       description: The topic or topics of the resource. Typically represented using

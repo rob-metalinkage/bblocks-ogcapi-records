@@ -1,5 +1,5 @@
 x-defs:
-  ogc.api.records.v1.schemas.contact:
+  _github_workspace_build_annotated_api_records_v1_schemas_contact_schema.yaml:
     type: object
     description: 'Identification of, and means of communication with, person responsible
 
@@ -140,4 +140,4 @@ x-defs:
       type: string
     x-schema-source: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/roles/schema.yaml
 allOf:
-- $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/contact/schema-oas3.0.yaml#/x-defs/ogc.api.records.v1.schemas.contact
+- $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/contact/schema-oas3.0.yaml#/x-defs/_github_workspace_build_annotated_api_records_v1_schemas_contact_schema.yaml

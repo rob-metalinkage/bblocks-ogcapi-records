@@ -1,5 +1,5 @@
 x-defs:
-  ogc.api.records.v1.schemas.landingPage:
+  _github_workspace_build_annotated_api_records_v1_schemas_landingPage_schema.yaml:
     allOf:
     - $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/landingPage/schema-oas3.0.yaml#/x-defs/schemas.opengis.net_ogcapi_features_part1_1.0_openapi_schemas_landingPage.yaml
     - type: object
@@ -109,4 +109,4 @@ x-defs:
         format: date-time
     x-schema-source: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/linkBase/schema.yaml
 allOf:
-- $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/landingPage/schema-oas3.0.yaml#/x-defs/ogc.api.records.v1.schemas.landingPage
+- $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/landingPage/schema-oas3.0.yaml#/x-defs/_github_workspace_build_annotated_api_records_v1_schemas_landingPage_schema.yaml

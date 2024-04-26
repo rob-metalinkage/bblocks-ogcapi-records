@@ -1,6 +1,6 @@
 {
   "x-defs": {
-    "ogc.api.records.v1.schemas.recordGeoJSON": {
+    "_github_workspace_build_annotated_api_records_v1_schemas_recordGeoJSON_schema.json": {
       "description": "Normative records schema - adapted from https://raw.githubusercontent.com/opengeospatial/ogcapi-records/master/core/openapi/schemas/recordGeoJSON.yaml",
       "type": "object",
       "allOf": [
@@ -1267,7 +1267,7 @@
   },
   "allOf": [
     {
-      "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/recordGeoJSON/schema-oas3.0.json#/x-defs/ogc.api.records.v1.schemas.recordGeoJSON"
+      "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/recordGeoJSON/schema-oas3.0.json#/x-defs/_github_workspace_build_annotated_api_records_v1_schemas_recordGeoJSON_schema.json"
     }
   ]
 }

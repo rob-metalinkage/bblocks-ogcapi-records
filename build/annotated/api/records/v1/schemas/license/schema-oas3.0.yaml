@@ -1,5 +1,5 @@
 x-defs:
-  ogc.api.records.v1.schemas.license:
+  _github_workspace_build_annotated_api_records_v1_schemas_license_schema.yaml:
     type: string
     description: A legal document under which the resource is made available. If the
       resource is being made available under a common license then use an SPDX license
@@ -14,4 +14,4 @@ x-defs:
       first place since there is no point in making such a resource discoverable.
     x-schema-source: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/license/schema-oas3.0.yaml
 allOf:
-- $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/license/schema-oas3.0.yaml#/x-defs/ogc.api.records.v1.schemas.license
+- $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/license/schema-oas3.0.yaml#/x-defs/_github_workspace_build_annotated_api_records_v1_schemas_license_schema.yaml

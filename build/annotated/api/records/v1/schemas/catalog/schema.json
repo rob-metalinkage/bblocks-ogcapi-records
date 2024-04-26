@@ -18,8 +18,8 @@
             {
               "type": "string",
               "enum": [
-                "record",
-                "catalog"
+                "Record",
+                "Catalog"
               ]
             },
             {
@@ -27,8 +27,8 @@
               "items": {
                 "type": "string",
                 "enum": [
-                  "record",
-                  "catalog"
+                  "Record",
+                  "Catalog"
                 ]
               }
             }
@@ -38,7 +38,7 @@
           "descripton": "Fixed to catalog for collections of records and/or subordinate catalogs.",
           "type": "string",
           "enum": [
-            "catalog"
+            "Catalog"
           ]
         },
         "keywords": {
