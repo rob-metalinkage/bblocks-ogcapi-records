@@ -1,0 +1,9 @@
+$comment: Adapted from https://github.com/opengeospatial/ogcapi-records/raw/master/core/openapi/schemas/landingPage.yaml
+allOf:
+  - $ref: bblocks://ogc.api.features.v1.schemas.landingPage
+  - type: object
+    properties:
+      linkTemplates:
+        type: array
+        items:
+          $ref: bblocks://ogc.api.records.v1.schemas.landingPage

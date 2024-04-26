@@ -1,0 +1,13 @@
+$comment: Adapted from https://github.com/opengeospatial/ogcapi-records/raw/master/core/openapi/schemas/catalogs.yaml
+allOf:
+  - $ref: bblocks://ogc.api.features.v1.schemas.collections
+  - type: object
+    properties:
+      collections:
+        type: array
+        items:
+          $ref: bblocks://ogc.api.records.v1.schemas.catalog
+      linkTemplates:
+        type: array
+        items:
+          $ref: bblocks://ogc.api.records.v1.schemas.linkTemplate
