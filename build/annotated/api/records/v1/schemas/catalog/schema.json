@@ -1,7 +1,8 @@
 {
+  "$comment": "Adapted from  https://raw.githubusercontent.com/opengeospatial/ogcapi-records/master/core/openapi/schemas/catalog.yaml",
   "allOf": [
     {
-      "$ref": "https://schemas.opengis.net/ogcapi/features/part1/1.0/openapi/schemas/collection.yaml"
+      "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/collection/schema.json"
     },
     {
       "type": "object"
@@ -18,8 +19,8 @@
             {
               "type": "string",
               "enum": [
-                "Record",
-                "Catalog"
+                "record",
+                "catalog"
               ]
             },
             {
@@ -27,8 +28,8 @@
               "items": {
                 "type": "string",
                 "enum": [
-                  "Record",
-                  "Catalog"
+                  "record",
+                  "catalog"
                 ]
               }
             }
@@ -38,7 +39,7 @@
           "descripton": "Fixed to catalog for collections of records and/or subordinate catalogs.",
           "type": "string",
           "enum": [
-            "Catalog"
+            "catalog"
           ]
         },
         "keywords": {
@@ -80,7 +81,7 @@
           "type": "array",
           "description": "A list of contacts qualified by their role(s) in association to the catalog.",
           "items": {
-            "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/contact/schema.json"
+            "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/language/schema.json"
           }
         },
         "themes": {
@@ -88,11 +89,11 @@
           "description": "A knowledge organization system used to classify this catalog.",
           "minItems": 1,
           "items": {
-            "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/theme/schema.json"
+            "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/language/schema.json"
           }
         },
         "license": {
-          "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/license/schema.json"
+          "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/language/schema.json"
         },
         "rights": {
           "type": "string",
@@ -108,7 +109,7 @@
         "linkTemplates": {
           "type": "array",
           "items": {
-            "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/linkTemplate/schema.json"
+            "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/language/schema.json"
           }
         }
       }

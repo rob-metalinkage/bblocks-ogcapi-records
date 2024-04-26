@@ -1,5 +1,6 @@
+$comment: Adapted from https://github.com/opengeospatial/ogcapi-records/raw/master/core/openapi/schemas/catalogs.yaml
 allOf:
-- $ref: https://schemas.opengis.net/ogcapi/features/part1/1.0/openapi/schemas/collections.yaml
+- $ref: https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/collections/schema.yaml
 - type: object
   properties:
     collections:

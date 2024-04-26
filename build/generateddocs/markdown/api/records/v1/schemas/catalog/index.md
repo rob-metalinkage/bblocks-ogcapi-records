@@ -10,8 +10,9 @@ This building block corresponds to the schema for an OGC API Records catalog
 ## Schema
 
 ```yaml
+$comment: Adapted from  https://raw.githubusercontent.com/opengeospatial/ogcapi-records/master/core/openapi/schemas/catalog.yaml
 allOf:
-- $ref: https://schemas.opengis.net/ogcapi/features/part1/1.0/openapi/schemas/collection.yaml
+- $ref: https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/collection/schema.yaml
 - type: object
 - required:
   - type
@@ -27,19 +28,19 @@ allOf:
       oneOf:
       - type: string
         enum:
-        - Record
-        - Catalog
+        - record
+        - catalog
       - type: array
         items:
           type: string
           enum:
-          - Record
-          - Catalog
+          - record
+          - catalog
     type:
       descripton: Fixed to catalog for collections of records and/or subordinate catalogs.
       type: string
       enum:
-      - Catalog
+      - catalog
     keywords:
       type: array
       description: The topic or topics of the resource. Typically represented using
@@ -72,15 +73,15 @@ allOf:
       description: A list of contacts qualified by their role(s) in association to
         the catalog.
       items:
-        $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/contact/schema.yaml
+        $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/language/schema.yaml
     themes:
       type: array
       description: A knowledge organization system used to classify this catalog.
       minItems: 1
       items:
-        $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/theme/schema.yaml
+        $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/language/schema.yaml
     license:
-      $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/license/schema.yaml
+      $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/language/schema.yaml
     rights:
       type: string
       description: A statement that concerns all rights not addressed by the license
@@ -93,7 +94,7 @@ allOf:
     linkTemplates:
       type: array
       items:
-        $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/linkTemplate/schema.yaml
+        $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/language/schema.yaml
 
 ```
 
@@ -101,6 +102,38 @@ Links to the schema:
 
 * YAML version: [schema.yaml](https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema.json)
 * JSON version: [schema.json](https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema.yaml)
+
+
+# JSON-LD Context
+
+```jsonld
+{
+  "@context": {
+    "href": {
+      "@type": "@id",
+      "@id": "oa:hasTarget"
+    },
+    "rel": {
+      "@context": {
+        "@base": "http://www.iana.org/assignments/relation/"
+      },
+      "@id": "http://www.iana.org/assignments/relation",
+      "@type": "@id"
+    },
+    "type": "dct:type",
+    "hreflang": "dct:language",
+    "title": "rdfs:label",
+    "length": "dct:extent",
+    "oa": "http://www.w3.org/ns/oa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "dct": "http://purl.org/dc/terms/",
+    "@version": 1.1
+  }
+}
+```
+
+You can find the full JSON-LD context here:
+[context.jsonld](https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/context.jsonld)
 
 ## Sources
 

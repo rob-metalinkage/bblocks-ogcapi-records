@@ -1,0 +1,62 @@
+path	@id
+/id	
+/title	
+/description	
+/links	
+/links/href	http://www.w3.org/ns/oa#hasTarget
+/links/rel	http://www.iana.org/assignments/relation
+/links/anchor	
+/links/type	http://purl.org/dc/terms/type
+/links/hreflang	http://purl.org/dc/terms/language
+/links/title	http://www.w3.org/2000/01/rdf-schema#label
+/links/length	http://purl.org/dc/terms/extent
+/extent	
+/extent/spatial	
+/extent/spatial/bbox	
+/extent/spatial/crs	
+/extent/temporal	
+/extent/temporal/interval	
+/extent/temporal/trs	
+/itemType	
+/crs	
+/type	
+/keywords	
+/language	
+/language/code	
+/language/name	
+/language/alternate	
+/language/dir	
+/languages	
+/languages/code	
+/languages/name	
+/languages/alternate	
+/languages/dir	
+/recordLanguages	
+/recordLanguages/code	
+/recordLanguages/name	
+/recordLanguages/alternate	
+/recordLanguages/dir	
+/created	
+/updated	
+/contacts	
+/contacts/code	
+/contacts/name	
+/contacts/alternate	
+/contacts/dir	
+/themes	
+/themes/code	
+/themes/name	
+/themes/alternate	
+/themes/dir	
+/license	
+/license/code	
+/license/name	
+/license/alternate	
+/license/dir	
+/rights	
+/conformsTo	
+/linkTemplates	
+/linkTemplates/code	
+/linkTemplates/name	
+/linkTemplates/alternate	
+/linkTemplates/dir	

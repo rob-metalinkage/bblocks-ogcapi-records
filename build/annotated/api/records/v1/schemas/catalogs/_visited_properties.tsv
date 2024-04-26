@@ -1,0 +1,82 @@
+path	@id
+/links	
+/links/href	http://www.w3.org/ns/oa#hasTarget
+/links/rel	http://www.iana.org/assignments/relation
+/links/anchor	
+/links/type	http://purl.org/dc/terms/type
+/links/hreflang	http://purl.org/dc/terms/language
+/links/title	http://www.w3.org/2000/01/rdf-schema#label
+/links/length	http://purl.org/dc/terms/extent
+/collections	
+/collections/id	
+/collections/title	
+/collections/description	
+/collections/links	
+/collections/links/href	http://www.w3.org/ns/oa#hasTarget
+/collections/links/rel	http://www.iana.org/assignments/relation
+/collections/links/anchor	
+/collections/links/type	http://purl.org/dc/terms/type
+/collections/links/hreflang	http://purl.org/dc/terms/language
+/collections/links/title	http://www.w3.org/2000/01/rdf-schema#label
+/collections/links/length	http://purl.org/dc/terms/extent
+/collections/extent	
+/collections/extent/spatial	
+/collections/extent/spatial/bbox	
+/collections/extent/spatial/crs	
+/collections/extent/temporal	
+/collections/extent/temporal/interval	
+/collections/extent/temporal/trs	
+/collections/itemType	
+/collections/crs	
+/collections/type	
+/collections/keywords	
+/collections/language	
+/collections/language/code	
+/collections/language/name	
+/collections/language/alternate	
+/collections/language/dir	
+/collections/languages	
+/collections/languages/code	
+/collections/languages/name	
+/collections/languages/alternate	
+/collections/languages/dir	
+/collections/recordLanguages	
+/collections/recordLanguages/code	
+/collections/recordLanguages/name	
+/collections/recordLanguages/alternate	
+/collections/recordLanguages/dir	
+/collections/created	
+/collections/updated	
+/collections/contacts	
+/collections/contacts/code	
+/collections/contacts/name	
+/collections/contacts/alternate	
+/collections/contacts/dir	
+/collections/themes	
+/collections/themes/code	
+/collections/themes/name	
+/collections/themes/alternate	
+/collections/themes/dir	
+/collections/license	
+/collections/license/code	
+/collections/license/name	
+/collections/license/alternate	
+/collections/license/dir	
+/collections/rights	
+/collections/conformsTo	
+/collections/linkTemplates	
+/collections/linkTemplates/code	
+/collections/linkTemplates/name	
+/collections/linkTemplates/alternate	
+/collections/linkTemplates/dir	
+/linkTemplates	
+/linkTemplates/rel	
+/linkTemplates/type	
+/linkTemplates/hreflang	
+/linkTemplates/title	
+/linkTemplates/length	
+/linkTemplates/created	
+/linkTemplates/updated	
+/linkTemplates/uriTemplate	
+/linkTemplates/varBase	
+/linkTemplates/variables	

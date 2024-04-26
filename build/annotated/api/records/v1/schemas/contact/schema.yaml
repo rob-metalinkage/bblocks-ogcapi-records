@@ -1,3 +1,4 @@
+$comment: Adapted from https://raw.githubusercontent.com/opengeospatial/ogcapi-records/master/core/openapi/schemas/contact.yaml
 type: object
 description: 'Identification of, and means of communication with, person responsible
 
@@ -25,7 +26,7 @@ properties:
     description: Graphic identifying a contact. The link relation should be `icon`
       and the media type should be an image media type.
     allOf:
-    - $ref: https://schemas.opengis.net/ogcapi/features/part1/1.0/openapi/schemas/link.yaml
+    - $ref: https://opengeospatial.github.io/bblocks/annotated-schemas/ogc-utils/json-link/schema.yaml
     - type: object
       required:
       - rel
@@ -96,7 +97,7 @@ properties:
     description: On-line information about the contact.
     items:
       allOf:
-      - $ref: https://schemas.opengis.net/ogcapi/features/part1/1.0/openapi/schemas/link.yaml
+      - $ref: https://opengeospatial.github.io/bblocks/annotated-schemas/ogc-utils/json-link/schema.yaml
       - type: object
         required:
         - type

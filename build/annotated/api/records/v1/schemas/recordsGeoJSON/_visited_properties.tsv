@@ -84,12 +84,13 @@ path	@id
 /features/properties/contacts/position	
 /features/properties/contacts/organization	
 /features/properties/contacts/logo	
-/features/properties/contacts/logo/href	
-/features/properties/contacts/logo/rel	
-/features/properties/contacts/logo/type	
-/features/properties/contacts/logo/hreflang	
-/features/properties/contacts/logo/title	
-/features/properties/contacts/logo/length	
+/features/properties/contacts/logo/href	http://www.w3.org/ns/oa#hasTarget
+/features/properties/contacts/logo/rel	http://www.iana.org/assignments/relation
+/features/properties/contacts/logo/anchor	
+/features/properties/contacts/logo/type	http://purl.org/dc/terms/type
+/features/properties/contacts/logo/hreflang	http://purl.org/dc/terms/language
+/features/properties/contacts/logo/title	http://www.w3.org/2000/01/rdf-schema#label
+/features/properties/contacts/logo/length	http://purl.org/dc/terms/extent
 /features/properties/contacts/phones	
 /features/properties/contacts/phones/value	
 /features/properties/contacts/phones/roles	
@@ -104,12 +105,13 @@ path	@id
 /features/properties/contacts/addresses/country	
 /features/properties/contacts/addresses/roles	
 /features/properties/contacts/links	
-/features/properties/contacts/links/href	
-/features/properties/contacts/links/rel	
-/features/properties/contacts/links/type	
-/features/properties/contacts/links/hreflang	
-/features/properties/contacts/links/title	
-/features/properties/contacts/links/length	
+/features/properties/contacts/links/href	http://www.w3.org/ns/oa#hasTarget
+/features/properties/contacts/links/rel	http://www.iana.org/assignments/relation
+/features/properties/contacts/links/anchor	
+/features/properties/contacts/links/type	http://purl.org/dc/terms/type
+/features/properties/contacts/links/hreflang	http://purl.org/dc/terms/language
+/features/properties/contacts/links/title	http://www.w3.org/2000/01/rdf-schema#label
+/features/properties/contacts/links/length	http://purl.org/dc/terms/extent
 /features/properties/contacts/hoursOfService	
 /features/properties/contacts/contactInstructions	
 /features/properties/contacts/roles	
