@@ -37,12 +37,12 @@
           "format": "date-time"
         }
       },
-      "x-schema-source": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/linkBase/schema-oas3.0.json"
+      "x-schema-source": "https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/linkBase/schema-oas3.0.json"
     }
   },
   "allOf": [
     {
-      "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/linkBase/schema-oas3.0.json#/x-defs/_github_workspace_build_annotated_api_records_v1_schemas_linkBase_schema.json"
+      "$ref": "https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/linkBase/schema-oas3.0.json#/x-defs/_github_workspace_build_annotated_api_records_v1_schemas_linkBase_schema.json"
     }
   ]
 }

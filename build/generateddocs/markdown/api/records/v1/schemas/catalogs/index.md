@@ -12,24 +12,24 @@ This building block corresponds to the schema for an OGC API Records catalogs
 ```yaml
 $comment: Adapted from https://github.com/opengeospatial/ogcapi-records/raw/master/core/openapi/schemas/catalogs.yaml
 allOf:
-- $ref: https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/collections/schema.yaml
+- $ref: https://rob-metalinkage.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/collections/schema.yaml
 - type: object
   properties:
     collections:
       type: array
       items:
-        $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema.yaml
+        $ref: https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema.yaml
     linkTemplates:
       type: array
       items:
-        $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/linkTemplate/schema.yaml
+        $ref: https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/linkTemplate/schema.yaml
 
 ```
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalogs/schema.json)
-* JSON version: [schema.json](https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalogs/schema.yaml)
+* YAML version: [schema.yaml](https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalogs/schema.json)
+* JSON version: [schema.json](https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalogs/schema.yaml)
 
 
 # JSON-LD Context
@@ -61,7 +61,7 @@ Links to the schema:
 ```
 
 You can find the full JSON-LD context here:
-[context.jsonld](https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalogs/context.jsonld)
+[context.jsonld](https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalogs/context.jsonld)
 
 ## Sources
 
@@ -71,6 +71,6 @@ You can find the full JSON-LD context here:
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/ogcincubator/bblocks-ogcapi-records](https://github.com/ogcincubator/bblocks-ogcapi-records)
+* URL: [https://github.com/rob-metalinkage/bblocks-ogcapi-records](https://github.com/rob-metalinkage/bblocks-ogcapi-records)
 * Path: `_sources/v1/schemas/catalogs`
 

@@ -234,5 +234,5 @@
       "href": "https://woudc.org/about/data-policy.php"
     }
   ],
-  "@context": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/recordGeoJSON/context.jsonld"
+  "@context": "https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/recordGeoJSON/context.jsonld"
 }

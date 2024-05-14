@@ -1,7 +1,7 @@
 x-defs:
   _github_workspace_build_annotated_api_records_v1_schemas_linkTemplate_schema.yaml:
     allOf:
-    - $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/linkTemplate/schema-oas3.0.yaml#/x-defs/ogcincubator.github.io_bblocks-ogcapi-records_build_annotated_api_records_v1_schemas_linkBase_schema.yaml
+    - $ref: https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/linkTemplate/schema-oas3.0.yaml#/x-defs/rob-metalinkage.github.io_bblocks-ogcapi-records_build_annotated_api_records_v1_schemas_linkBase_schema.yaml
     - type: object
       required:
       - uriTemplate
@@ -22,8 +22,8 @@ x-defs:
             templated URL.  Each key defines the schema of one substitution variable
             using a JSON Schema fragment and can thus include things like the data
             type of the variable, enumerations, minimum values, maximum values, etc.
-    x-schema-source: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/linkTemplate/schema-oas3.0.yaml
-  ogcincubator.github.io_bblocks-ogcapi-records_build_annotated_api_records_v1_schemas_linkBase_schema.yaml:
+    x-schema-source: https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/linkTemplate/schema-oas3.0.yaml
+  rob-metalinkage.github.io_bblocks-ogcapi-records_build_annotated_api_records_v1_schemas_linkBase_schema.yaml:
     type: object
     properties:
       rel:
@@ -56,6 +56,6 @@ x-defs:
         description: Most recent date on which the resource pointed to by the link
           was changed.
         format: date-time
-    x-schema-source: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/linkBase/schema.yaml
+    x-schema-source: https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/linkBase/schema.yaml
 allOf:
-- $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/linkTemplate/schema-oas3.0.yaml#/x-defs/_github_workspace_build_annotated_api_records_v1_schemas_linkTemplate_schema.yaml
+- $ref: https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/linkTemplate/schema-oas3.0.yaml#/x-defs/_github_workspace_build_annotated_api_records_v1_schemas_linkTemplate_schema.yaml

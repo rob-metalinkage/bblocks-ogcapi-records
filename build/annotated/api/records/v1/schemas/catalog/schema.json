@@ -2,7 +2,7 @@
   "$comment": "Adapted from  https://raw.githubusercontent.com/opengeospatial/ogcapi-records/master/core/openapi/schemas/catalog.yaml",
   "allOf": [
     {
-      "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/collection/schema.json"
+      "$ref": "https://rob-metalinkage.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/collection/schema.json"
     },
     {
       "type": "object"
@@ -51,20 +51,20 @@
         },
         "language": {
           "description": "The language used for textual values in this catalog representation.",
-          "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/language/schema.json"
+          "$ref": "https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/language/schema.json"
         },
         "languages": {
           "type": "array",
           "description": "The list of languages in which this catalog object is available.",
           "items": {
-            "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/language/schema.json"
+            "$ref": "https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/language/schema.json"
           }
         },
         "recordLanguages": {
           "type": "array",
           "description": "The list of languages in which the records of this catalog available.",
           "items": {
-            "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/language/schema.json"
+            "$ref": "https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/language/schema.json"
           }
         },
         "created": {
@@ -81,7 +81,7 @@
           "type": "array",
           "description": "A list of contacts qualified by their role(s) in association to the catalog.",
           "items": {
-            "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/contact/schema.json"
+            "$ref": "https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/contact/schema.json"
           }
         },
         "themes": {
@@ -89,11 +89,11 @@
           "description": "A knowledge organization system used to classify this catalog.",
           "minItems": 1,
           "items": {
-            "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/theme/schema.json"
+            "$ref": "https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/theme/schema.json"
           }
         },
         "license": {
-          "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/license/schema.json"
+          "$ref": "https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/license/schema.json"
         },
         "rights": {
           "type": "string",
@@ -109,7 +109,7 @@
         "linkTemplates": {
           "type": "array",
           "items": {
-            "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/linkTemplate/schema.json"
+            "$ref": "https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/linkTemplate/schema.json"
           }
         }
       }

@@ -2,7 +2,7 @@ x-defs:
   _github_workspace_build_annotated_api_records_v1_schemas_catalog_schema.yaml:
     $comment: Adapted from  https://raw.githubusercontent.com/opengeospatial/ogcapi-records/master/core/openapi/schemas/catalog.yaml
     allOf:
-    - $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema-oas3.0.yaml#/x-defs/ogc.api.features.v1.schemas.collection
+    - $ref: https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema-oas3.0.yaml#/x-defs/ogc.api.features.v1.schemas.collection
     - type: object
     - required:
       - type
@@ -43,13 +43,13 @@ x-defs:
           type: array
           description: The list of languages in which this catalog object is available.
           items:
-            $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema-oas3.0.yaml#/x-defs/ogcincubator.github.io_bblocks-ogcapi-records_build_annotated_api_records_v1_schemas_language_schema.yaml
+            $ref: https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema-oas3.0.yaml#/x-defs/rob-metalinkage.github.io_bblocks-ogcapi-records_build_annotated_api_records_v1_schemas_language_schema.yaml
         recordLanguages:
           type: array
           description: The list of languages in which the records of this catalog
             available.
           items:
-            $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema-oas3.0.yaml#/x-defs/ogcincubator.github.io_bblocks-ogcapi-records_build_annotated_api_records_v1_schemas_language_schema.yaml
+            $ref: https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema-oas3.0.yaml#/x-defs/rob-metalinkage.github.io_bblocks-ogcapi-records_build_annotated_api_records_v1_schemas_language_schema.yaml
         created:
           type: string
           description: Date of creation of this catalog.
@@ -63,15 +63,15 @@ x-defs:
           description: A list of contacts qualified by their role(s) in association
             to the catalog.
           items:
-            $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema-oas3.0.yaml#/x-defs/ogcincubator.github.io_bblocks-ogcapi-records_build_annotated_api_records_v1_schemas_contact_schema.yaml
+            $ref: https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema-oas3.0.yaml#/x-defs/rob-metalinkage.github.io_bblocks-ogcapi-records_build_annotated_api_records_v1_schemas_contact_schema.yaml
         themes:
           type: array
           description: A knowledge organization system used to classify this catalog.
           minItems: 1
           items:
-            $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema-oas3.0.yaml#/x-defs/ogcincubator.github.io_bblocks-ogcapi-records_build_annotated_api_records_v1_schemas_theme_schema.yaml
+            $ref: https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema-oas3.0.yaml#/x-defs/rob-metalinkage.github.io_bblocks-ogcapi-records_build_annotated_api_records_v1_schemas_theme_schema.yaml
         license:
-          $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema-oas3.0.yaml#/x-defs/ogcincubator.github.io_bblocks-ogcapi-records_build_annotated_api_records_v1_schemas_license_schema.yaml
+          $ref: https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema-oas3.0.yaml#/x-defs/rob-metalinkage.github.io_bblocks-ogcapi-records_build_annotated_api_records_v1_schemas_license_schema.yaml
         rights:
           type: string
           description: A statement that concerns all rights not addressed by the license
@@ -84,8 +84,8 @@ x-defs:
         linkTemplates:
           type: array
           items:
-            $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema-oas3.0.yaml#/x-defs/ogcincubator.github.io_bblocks-ogcapi-records_build_annotated_api_records_v1_schemas_linkTemplate_schema.yaml
-    x-schema-source: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema-oas3.0.yaml
+            $ref: https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema-oas3.0.yaml#/x-defs/rob-metalinkage.github.io_bblocks-ogcapi-records_build_annotated_api_records_v1_schemas_linkTemplate_schema.yaml
+    x-schema-source: https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema-oas3.0.yaml
   ogc.api.features.v1.schemas.collection:
     $comment: Adapted from https://schemas.opengis.net/ogcapi/features/part1/1.0/openapi/schemas/collection.yaml
     type: object
@@ -108,7 +108,7 @@ x-defs:
       links:
         type: array
         items:
-          $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema-oas3.0.yaml#/x-defs/ogc.ogc-utils.json-link
+          $ref: https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema-oas3.0.yaml#/x-defs/ogc.ogc-utils.json-link
         example:
         - href: http://data.example.com/buildings
           rel: item
@@ -116,7 +116,7 @@ x-defs:
           rel: describedby
           type: text/html
       extent:
-        $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema-oas3.0.yaml#/x-defs/ogc.api.features.v1.schemas.extent
+        $ref: https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema-oas3.0.yaml#/x-defs/ogc.api.features.v1.schemas.extent
       itemType:
         description: indicator about the type of the items in the collection (the
           default value is 'feature').
@@ -132,8 +132,8 @@ x-defs:
         example:
         - http://www.opengis.net/def/crs/OGC/1.3/CRS84
         - http://www.opengis.net/def/crs/EPSG/0/4326
-    x-schema-source: https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/collection/schema.yaml
-  ogcincubator.github.io_bblocks-ogcapi-records_build_annotated_api_records_v1_schemas_language_schema.yaml:
+    x-schema-source: https://rob-metalinkage.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/collection/schema.yaml
+  rob-metalinkage.github.io_bblocks-ogcapi-records_build_annotated_api_records_v1_schemas_language_schema.yaml:
     type: object
     description: The language used for textual values in this record.
     required:
@@ -167,8 +167,8 @@ x-defs:
         - btt
         default:
         - ltr
-    x-schema-source: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/language/schema.yaml
-  ogcincubator.github.io_bblocks-ogcapi-records_build_annotated_api_records_v1_schemas_contact_schema.yaml:
+    x-schema-source: https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/language/schema.yaml
+  rob-metalinkage.github.io_bblocks-ogcapi-records_build_annotated_api_records_v1_schemas_contact_schema.yaml:
     $comment: Adapted from https://raw.githubusercontent.com/opengeospatial/ogcapi-records/master/core/openapi/schemas/contact.yaml
     type: object
     description: 'Identification of, and means of communication with, person responsible
@@ -197,7 +197,7 @@ x-defs:
         description: Graphic identifying a contact. The link relation should be `icon`
           and the media type should be an image media type.
         allOf:
-        - $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema-oas3.0.yaml#/x-defs/ogc.ogc-utils.json-link
+        - $ref: https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema-oas3.0.yaml#/x-defs/ogc.ogc-utils.json-link
         - type: object
           required:
           - rel
@@ -262,7 +262,7 @@ x-defs:
         description: On-line information about the contact.
         items:
           allOf:
-          - $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema-oas3.0.yaml#/x-defs/ogc.ogc-utils.json-link
+          - $ref: https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema-oas3.0.yaml#/x-defs/ogc.ogc-utils.json-link
           - type: object
             required:
             - type
@@ -276,8 +276,8 @@ x-defs:
 
           responsible party.'
       roles: {}
-    x-schema-source: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/contact/schema.yaml
-  ogcincubator.github.io_bblocks-ogcapi-records_build_annotated_api_records_v1_schemas_theme_schema.yaml:
+    x-schema-source: https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/contact/schema.yaml
+  rob-metalinkage.github.io_bblocks-ogcapi-records_build_annotated_api_records_v1_schemas_theme_schema.yaml:
     type: object
     required:
     - concepts
@@ -315,8 +315,8 @@ x-defs:
           the server's OpenAPI document or, if the server implements CQL2, by exposing
           a queryable (e.g. named `scheme`) and enumerating the list of schemes in
           the queryable's schema definition.
-    x-schema-source: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/theme/schema.yaml
-  ogcincubator.github.io_bblocks-ogcapi-records_build_annotated_api_records_v1_schemas_license_schema.yaml:
+    x-schema-source: https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/theme/schema.yaml
+  rob-metalinkage.github.io_bblocks-ogcapi-records_build_annotated_api_records_v1_schemas_license_schema.yaml:
     type: string
     description: A legal document under which the resource is made available. If the
       resource is being made available under a common license then use an SPDX license
@@ -329,10 +329,10 @@ x-defs:
       There is also the case of a resource that is private or unpublished and is thus
       unlicensed; in this case do not register such a resource in the catalog in the
       first place since there is no point in making such a resource discoverable.
-    x-schema-source: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/license/schema.yaml
-  ogcincubator.github.io_bblocks-ogcapi-records_build_annotated_api_records_v1_schemas_linkTemplate_schema.yaml:
+    x-schema-source: https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/license/schema.yaml
+  rob-metalinkage.github.io_bblocks-ogcapi-records_build_annotated_api_records_v1_schemas_linkTemplate_schema.yaml:
     allOf:
-    - $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema-oas3.0.yaml#/x-defs/ogcincubator.github.io_bblocks-ogcapi-records_build_annotated_api_records_v1_schemas_linkBase_schema.yaml
+    - $ref: https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema-oas3.0.yaml#/x-defs/rob-metalinkage.github.io_bblocks-ogcapi-records_build_annotated_api_records_v1_schemas_linkBase_schema.yaml
     - type: object
       required:
       - uriTemplate
@@ -353,7 +353,7 @@ x-defs:
             templated URL.  Each key defines the schema of one substitution variable
             using a JSON Schema fragment and can thus include things like the data
             type of the variable, enumerations, minimum values, maximum values, etc.
-    x-schema-source: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/linkTemplate/schema.yaml
+    x-schema-source: https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/linkTemplate/schema.yaml
   ogc.ogc-utils.json-link:
     description: JSON Link
     type: object
@@ -420,7 +420,7 @@ x-defs:
           bbox:
             type: array
             items:
-              $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema-oas3.0.yaml#/x-defs/ogc.geo.common.data_types.bounding_box
+              $ref: https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema-oas3.0.yaml#/x-defs/ogc.geo.common.data_types.bounding_box
           crs:
             description: 'Coordinate reference system of the coordinates in the spatial
               extent
@@ -481,9 +481,11 @@ x-defs:
               minItems: 2
               maxItems: 2
               items:
-                type: string
-                format: date-time
-                nullable: true
+                anyOf:
+                - type: string
+                  format: date-time
+                  nullable: true
+                - nullable: true
               example:
               - '2011-11-11T12:22:11Z'
               - null
@@ -505,16 +507,16 @@ x-defs:
             enum:
             - http://www.opengis.net/def/uom/ISO-8601/0/Gregorian
             default: http://www.opengis.net/def/uom/ISO-8601/0/Gregorian
-    x-schema-source: https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/extent/schema.yaml
-  ogcincubator.github.io_bblocks-ogcapi-records_build_annotated_api_records_v1_schemas_roles_schema.yaml:
+    x-schema-source: https://rob-metalinkage.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/extent/schema.yaml
+  rob-metalinkage.github.io_bblocks-ogcapi-records_build_annotated_api_records_v1_schemas_roles_schema.yaml:
     description: The list of duties, job functions or permissions assigned by the
       system and associated with the context of this member.
     type: array
     minItems: 1
     items:
       type: string
-    x-schema-source: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/roles/schema.yaml
-  ogcincubator.github.io_bblocks-ogcapi-records_build_annotated_api_records_v1_schemas_linkBase_schema.yaml:
+    x-schema-source: https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/roles/schema.yaml
+  rob-metalinkage.github.io_bblocks-ogcapi-records_build_annotated_api_records_v1_schemas_linkBase_schema.yaml:
     type: object
     properties:
       rel:
@@ -547,7 +549,7 @@ x-defs:
         description: Most recent date on which the resource pointed to by the link
           was changed.
         format: date-time
-    x-schema-source: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/linkBase/schema.yaml
+    x-schema-source: https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/linkBase/schema.yaml
   ogc.geo.common.data_types.bounding_box:
     type: array
     oneOf:
@@ -559,4 +561,4 @@ x-defs:
       type: number
     x-schema-source: https://opengeospatial.github.io/bblocks/annotated-schemas/geo/common/data_types/bounding_box/schema.yaml
 allOf:
-- $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema-oas3.0.yaml#/x-defs/_github_workspace_build_annotated_api_records_v1_schemas_catalog_schema.yaml
+- $ref: https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema-oas3.0.yaml#/x-defs/_github_workspace_build_annotated_api_records_v1_schemas_catalog_schema.yaml

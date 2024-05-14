@@ -62,7 +62,7 @@ properties:
           example: '+14165550142'
         roles:
           description: The type of phone number (e.g. home, work, fax, etc.).
-          $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/roles/schema.yaml
+          $ref: https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/roles/schema.yaml
   emails:
     type: array
     description: Email addresses at which contact can be made.
@@ -77,7 +77,7 @@ properties:
           format: email
         roles:
           description: The type of email (e.g. home, work, etc.).
-          $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/roles/schema.yaml
+          $ref: https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/roles/schema.yaml
   addresses:
     type: array
     description: Physical location at which contact can be made.
@@ -103,7 +103,7 @@ properties:
           description: Country of the physical address.  ISO 3166-1 is recommended.
         roles:
           description: The type of address (e.g. office, home, etc.).
-          $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/roles/schema.yaml
+          $ref: https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/roles/schema.yaml
   links:
     type: array
     description: On-line information about the contact.
@@ -125,14 +125,14 @@ properties:
   roles:
     description: The set of named duties, job functions and/or permissions associated
       with this contact. (e.g. developer, administrator, etc.).
-    $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/roles/schema.yaml
+    $ref: https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/roles/schema.yaml
 
 ```
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/contact/schema.json)
-* JSON version: [schema.json](https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/contact/schema.yaml)
+* YAML version: [schema.yaml](https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/contact/schema.json)
+* JSON version: [schema.json](https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/contact/schema.yaml)
 
 
 # JSON-LD Context
@@ -164,7 +164,7 @@ Links to the schema:
 ```
 
 You can find the full JSON-LD context here:
-[context.jsonld](https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/contact/context.jsonld)
+[context.jsonld](https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/contact/context.jsonld)
 
 ## Sources
 
@@ -174,6 +174,6 @@ You can find the full JSON-LD context here:
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/ogcincubator/bblocks-ogcapi-records](https://github.com/ogcincubator/bblocks-ogcapi-records)
+* URL: [https://github.com/rob-metalinkage/bblocks-ogcapi-records](https://github.com/rob-metalinkage/bblocks-ogcapi-records)
 * Path: `_sources/v1/schemas/contact`
 

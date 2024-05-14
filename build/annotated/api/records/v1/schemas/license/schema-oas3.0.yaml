@@ -12,6 +12,6 @@ x-defs:
       There is also the case of a resource that is private or unpublished and is thus
       unlicensed; in this case do not register such a resource in the catalog in the
       first place since there is no point in making such a resource discoverable.
-    x-schema-source: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/license/schema-oas3.0.yaml
+    x-schema-source: https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/license/schema-oas3.0.yaml
 allOf:
-- $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/license/schema-oas3.0.yaml#/x-defs/_github_workspace_build_annotated_api_records_v1_schemas_license_schema.yaml
+- $ref: https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/license/schema-oas3.0.yaml#/x-defs/_github_workspace_build_annotated_api_records_v1_schemas_license_schema.yaml

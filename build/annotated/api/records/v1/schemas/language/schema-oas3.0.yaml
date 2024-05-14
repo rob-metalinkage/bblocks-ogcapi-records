@@ -33,6 +33,6 @@ x-defs:
         - btt
         default:
         - ltr
-    x-schema-source: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/language/schema-oas3.0.yaml
+    x-schema-source: https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/language/schema-oas3.0.yaml
 allOf:
-- $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/language/schema-oas3.0.yaml#/x-defs/_github_workspace_build_annotated_api_records_v1_schemas_language_schema.yaml
+- $ref: https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/language/schema-oas3.0.yaml#/x-defs/_github_workspace_build_annotated_api_records_v1_schemas_language_schema.yaml

@@ -70,7 +70,7 @@
           },
           "roles": {
             "description": "The type of phone number (e.g. home, work, fax, etc.).",
-            "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/roles/schema.json"
+            "$ref": "https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/roles/schema.json"
           }
         }
       }
@@ -91,7 +91,7 @@
           },
           "roles": {
             "description": "The type of email (e.g. home, work, etc.).",
-            "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/roles/schema.json"
+            "$ref": "https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/roles/schema.json"
           }
         }
       }
@@ -127,7 +127,7 @@
           },
           "roles": {
             "description": "The type of address (e.g. office, home, etc.).",
-            "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/roles/schema.json"
+            "$ref": "https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/roles/schema.json"
           }
         }
       }
@@ -160,7 +160,7 @@
     },
     "roles": {
       "description": "The set of named duties, job functions and/or permissions associated with this contact. (e.g. developer, administrator, etc.).",
-      "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/roles/schema.json"
+      "$ref": "https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/roles/schema.json"
     }
   }
 }

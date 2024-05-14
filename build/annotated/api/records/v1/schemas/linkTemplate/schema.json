@@ -1,7 +1,7 @@
 {
   "allOf": [
     {
-      "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/linkBase/schema.json"
+      "$ref": "https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/linkBase/schema.json"
     },
     {
       "type": "object",

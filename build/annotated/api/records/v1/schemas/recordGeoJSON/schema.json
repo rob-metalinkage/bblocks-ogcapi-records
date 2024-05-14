@@ -40,7 +40,7 @@
           ]
         },
         {
-          "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/time/schema.json"
+          "$ref": "https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/time/schema.json"
         }
       ]
     },
@@ -95,20 +95,20 @@
         },
         "language": {
           "description": "The language used for textual values in this record representation.",
-          "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/language/schema.json"
+          "$ref": "https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/language/schema.json"
         },
         "languages": {
           "type": "array",
           "description": "This list of languages in which this record is available.",
           "items": {
-            "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/language/schema.json"
+            "$ref": "https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/language/schema.json"
           }
         },
         "resourceLanguages": {
           "type": "array",
           "description": "The list of languages in which the resource described by this record is available.",
           "items": {
-            "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/language/schema.json"
+            "$ref": "https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/language/schema.json"
           }
         },
         "externalIds": {
@@ -136,7 +136,7 @@
           "description": "A knowledge organization system used to classify the resource.",
           "minItems": 1,
           "items": {
-            "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/theme/schema.json"
+            "$ref": "https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/theme/schema.json"
           }
         },
         "formats": {
@@ -150,11 +150,11 @@
           "type": "array",
           "description": "A list of contacts qualified by their role(s) in association to the record or the resource described by the record.",
           "items": {
-            "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/contact/schema.json"
+            "$ref": "https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/contact/schema.json"
           }
         },
         "license": {
-          "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/license/schema.json"
+          "$ref": "https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/license/schema.json"
         },
         "rights": {
           "type": "string",
@@ -171,7 +171,7 @@
     "linkTemplates": {
       "type": "array",
       "items": {
-        "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/linkTemplate/schema.json"
+        "$ref": "https://rob-metalinkage.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/linkTemplate/schema.json"
       }
     }
   }
