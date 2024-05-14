@@ -79,7 +79,7 @@ allOf:
           A list of contacts qualified by their role(s) in
           association to the catalog.
         items:
-          $ref: bblocks://ogc.api.records.v1.schemas.language
+          $ref: bblocks://ogc.api.records.v1.schemas.contact
       themes:
         type: array
         description:
@@ -87,9 +87,9 @@ allOf:
           this catalog.
         minItems: 1
         items:
-          $ref: bblocks://ogc.api.records.v1.schemas.language
+          $ref: bblocks://ogc.api.records.v1.schemas.theme
       license:
-        $ref: bblocks://ogc.api.records.v1.schemas.language
+        $ref: bblocks://ogc.api.records.v1.schemas.license
       rights:
         type: string
         description:
@@ -105,4 +105,4 @@ allOf:
       linkTemplates:
         type: array
         items:
-          $ref: bblocks://ogc.api.records.v1.schemas.language
+          $ref: bblocks://ogc.api.records.v1.schemas.linkTemplate
