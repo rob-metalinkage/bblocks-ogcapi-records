@@ -22,12 +22,36 @@
             *[data-bs-toggle].collapsed .caret {
                 transform: rotate(0deg);
             }
+            .highlighted {
+                animation: highlight-border 3500ms ease-out;
+            }
+            .highlighted h2 button {
+                animation: highlight 3500ms ease-out;
+            }
+            @keyframes highlight {
+                0% {
+                    background: #ffff90;
+                }
+                100% {
+                    background: var(--bs-accordion-active-bg);
+                }
+            }
+            @keyframes highlight-border {
+                0% {
+                    border-color: red;
+                    border-width: 2px;
+                }
+                100% {
+                    border-color: var(--bs-accordion-border-color);
+                    border-width: var(--bs-accordion-border-width);
+                }
+            }
         </style>
     </head>
     <body>
         <div class="container">
             <h1 class="title">Building blocks validation report</h1>
-            <small class="datetime">Generated at 2024-04-26T06:51:51.956098+00:00</small>
+            <small class="datetime">Generated at 2024-05-14T01:06:42.994434+00:00</small>
                 <p class="summary fw-semibold text-success">
                     Number of passing building blocks: 13 / 13 (100%)
                 </p>
@@ -36,9 +60,11 @@
                 <a href="#" class="collapse-all">Collapse all</a>
             </div>
                 <div class="accordion mt-2" id="bblock-reports">
-                        <div class="accordion-item bblock-report" data-bblock-id="ogc.api.records.v1.schemas.language" id="bblock-0">
+                        <div class="accordion-item bblock-report" data-bblock-id="ogc.api.records.v1.schemas.language" id="bblock-ogc.api.records.v1.schemas.language">
                             <h2 class="accordion-header bblock-title">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bblock-collapse-0">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#bblock-collapse-ogc\.api\.records\.v1\.schemas\.language">
                                     <div class="flex-fill">
                                         Schema for language
                                         <small class="ms-2 bblock-id">ogc.api.records.v1.schemas.language</small>
@@ -50,15 +76,17 @@
                                     </span>
                                 </button>
                             </h2>
-                            <div class="accordion-collapse collapse " id="bblock-collapse-0">
+                            <div class="accordion-collapse collapse " id="bblock-collapse-ogc.api.records.v1.schemas.language">
                                 <div class="accordion-body">
                                         <div class="alert alert-info mb-0">No tests were found for this building block.</div>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item bblock-report" data-bblock-id="ogc.api.records.v1.schemas.roles" id="bblock-1">
+                        <div class="accordion-item bblock-report" data-bblock-id="ogc.api.records.v1.schemas.roles" id="bblock-ogc.api.records.v1.schemas.roles">
                             <h2 class="accordion-header bblock-title">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bblock-collapse-1">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#bblock-collapse-ogc\.api\.records\.v1\.schemas\.roles">
                                     <div class="flex-fill">
                                         Schema for roles
                                         <small class="ms-2 bblock-id">ogc.api.records.v1.schemas.roles</small>
@@ -70,15 +98,17 @@
                                     </span>
                                 </button>
                             </h2>
-                            <div class="accordion-collapse collapse " id="bblock-collapse-1">
+                            <div class="accordion-collapse collapse " id="bblock-collapse-ogc.api.records.v1.schemas.roles">
                                 <div class="accordion-body">
                                         <div class="alert alert-info mb-0">No tests were found for this building block.</div>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item bblock-report" data-bblock-id="ogc.api.records.v1.schemas.license" id="bblock-2">
+                        <div class="accordion-item bblock-report" data-bblock-id="ogc.api.records.v1.schemas.license" id="bblock-ogc.api.records.v1.schemas.license">
                             <h2 class="accordion-header bblock-title">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bblock-collapse-2">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#bblock-collapse-ogc\.api\.records\.v1\.schemas\.license">
                                     <div class="flex-fill">
                                         Schema for license
                                         <small class="ms-2 bblock-id">ogc.api.records.v1.schemas.license</small>
@@ -90,15 +120,17 @@
                                     </span>
                                 </button>
                             </h2>
-                            <div class="accordion-collapse collapse " id="bblock-collapse-2">
+                            <div class="accordion-collapse collapse " id="bblock-collapse-ogc.api.records.v1.schemas.license">
                                 <div class="accordion-body">
                                         <div class="alert alert-info mb-0">No tests were found for this building block.</div>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item bblock-report" data-bblock-id="ogc.api.records.v1.schemas.linkBase" id="bblock-3">
+                        <div class="accordion-item bblock-report" data-bblock-id="ogc.api.records.v1.schemas.linkBase" id="bblock-ogc.api.records.v1.schemas.linkBase">
                             <h2 class="accordion-header bblock-title">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bblock-collapse-3">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#bblock-collapse-ogc\.api\.records\.v1\.schemas\.linkBase">
                                     <div class="flex-fill">
                                         Schema for linkBase
                                         <small class="ms-2 bblock-id">ogc.api.records.v1.schemas.linkBase</small>
@@ -110,15 +142,17 @@
                                     </span>
                                 </button>
                             </h2>
-                            <div class="accordion-collapse collapse " id="bblock-collapse-3">
+                            <div class="accordion-collapse collapse " id="bblock-collapse-ogc.api.records.v1.schemas.linkBase">
                                 <div class="accordion-body">
                                         <div class="alert alert-info mb-0">No tests were found for this building block.</div>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item bblock-report" data-bblock-id="ogc.api.records.v1.schemas.time" id="bblock-4">
+                        <div class="accordion-item bblock-report" data-bblock-id="ogc.api.records.v1.schemas.time" id="bblock-ogc.api.records.v1.schemas.time">
                             <h2 class="accordion-header bblock-title">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bblock-collapse-4">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#bblock-collapse-ogc\.api\.records\.v1\.schemas\.time">
                                     <div class="flex-fill">
                                         Schema for time
                                         <small class="ms-2 bblock-id">ogc.api.records.v1.schemas.time</small>
@@ -130,15 +164,17 @@
                                     </span>
                                 </button>
                             </h2>
-                            <div class="accordion-collapse collapse " id="bblock-collapse-4">
+                            <div class="accordion-collapse collapse " id="bblock-collapse-ogc.api.records.v1.schemas.time">
                                 <div class="accordion-body">
                                         <div class="alert alert-info mb-0">No tests were found for this building block.</div>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item bblock-report" data-bblock-id="ogc.api.records.v1.schemas.theme" id="bblock-5">
+                        <div class="accordion-item bblock-report" data-bblock-id="ogc.api.records.v1.schemas.theme" id="bblock-ogc.api.records.v1.schemas.theme">
                             <h2 class="accordion-header bblock-title">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bblock-collapse-5">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#bblock-collapse-ogc\.api\.records\.v1\.schemas\.theme">
                                     <div class="flex-fill">
                                         Schema for theme
                                         <small class="ms-2 bblock-id">ogc.api.records.v1.schemas.theme</small>
@@ -150,15 +186,17 @@
                                     </span>
                                 </button>
                             </h2>
-                            <div class="accordion-collapse collapse " id="bblock-collapse-5">
+                            <div class="accordion-collapse collapse " id="bblock-collapse-ogc.api.records.v1.schemas.theme">
                                 <div class="accordion-body">
                                         <div class="alert alert-info mb-0">No tests were found for this building block.</div>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item bblock-report" data-bblock-id="ogc.api.records.v1.schemas.contact" id="bblock-6">
+                        <div class="accordion-item bblock-report" data-bblock-id="ogc.api.records.v1.schemas.contact" id="bblock-ogc.api.records.v1.schemas.contact">
                             <h2 class="accordion-header bblock-title">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bblock-collapse-6">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#bblock-collapse-ogc\.api\.records\.v1\.schemas\.contact">
                                     <div class="flex-fill">
                                         Schema for contact
                                         <small class="ms-2 bblock-id">ogc.api.records.v1.schemas.contact</small>
@@ -170,15 +208,17 @@
                                     </span>
                                 </button>
                             </h2>
-                            <div class="accordion-collapse collapse " id="bblock-collapse-6">
+                            <div class="accordion-collapse collapse " id="bblock-collapse-ogc.api.records.v1.schemas.contact">
                                 <div class="accordion-body">
                                         <div class="alert alert-info mb-0">No tests were found for this building block.</div>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item bblock-report" data-bblock-id="ogc.api.records.v1.schemas.linkTemplate" id="bblock-7">
+                        <div class="accordion-item bblock-report" data-bblock-id="ogc.api.records.v1.schemas.linkTemplate" id="bblock-ogc.api.records.v1.schemas.linkTemplate">
                             <h2 class="accordion-header bblock-title">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bblock-collapse-7">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#bblock-collapse-ogc\.api\.records\.v1\.schemas\.linkTemplate">
                                     <div class="flex-fill">
                                         Schema for linkTemplate
                                         <small class="ms-2 bblock-id">ogc.api.records.v1.schemas.linkTemplate</small>
@@ -190,15 +230,17 @@
                                     </span>
                                 </button>
                             </h2>
-                            <div class="accordion-collapse collapse " id="bblock-collapse-7">
+                            <div class="accordion-collapse collapse " id="bblock-collapse-ogc.api.records.v1.schemas.linkTemplate">
                                 <div class="accordion-body">
                                         <div class="alert alert-info mb-0">No tests were found for this building block.</div>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item bblock-report" data-bblock-id="ogc.api.records.v1.schemas.landingPage" id="bblock-8">
+                        <div class="accordion-item bblock-report" data-bblock-id="ogc.api.records.v1.schemas.landingPage" id="bblock-ogc.api.records.v1.schemas.landingPage">
                             <h2 class="accordion-header bblock-title">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bblock-collapse-8">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#bblock-collapse-ogc\.api\.records\.v1\.schemas\.landingPage">
                                     <div class="flex-fill">
                                         Schema for landingPage
                                         <small class="ms-2 bblock-id">ogc.api.records.v1.schemas.landingPage</small>
@@ -210,35 +252,17 @@
                                     </span>
                                 </button>
                             </h2>
-                            <div class="accordion-collapse collapse " id="bblock-collapse-8">
+                            <div class="accordion-collapse collapse " id="bblock-collapse-ogc.api.records.v1.schemas.landingPage">
                                 <div class="accordion-body">
                                         <div class="alert alert-info mb-0">No tests were found for this building block.</div>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item bblock-report" data-bblock-id="ogc.api.records.v1.schemas.catalog" id="bblock-9">
+                        <div class="accordion-item bblock-report" data-bblock-id="ogc.api.records.v1.schemas.recordGeoJSON" id="bblock-ogc.api.records.v1.schemas.recordGeoJSON">
                             <h2 class="accordion-header bblock-title">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bblock-collapse-9">
-                                    <div class="flex-fill">
-                                        Schema for catalog
-                                        <small class="ms-2 bblock-id">ogc.api.records.v1.schemas.catalog</small>
-                                    </div>
-
-                                    <span class="badge text-bg-success me-2">
-                                            Passed
-                                            (no tests)
-                                    </span>
-                                </button>
-                            </h2>
-                            <div class="accordion-collapse collapse " id="bblock-collapse-9">
-                                <div class="accordion-body">
-                                        <div class="alert alert-info mb-0">No tests were found for this building block.</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item bblock-report" data-bblock-id="ogc.api.records.v1.schemas.recordGeoJSON" id="bblock-10">
-                            <h2 class="accordion-header bblock-title">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bblock-collapse-10">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#bblock-collapse-ogc\.api\.records\.v1\.schemas\.recordGeoJSON">
                                     <div class="flex-fill">
                                         Schema for recordGeoJSON
                                         <small class="ms-2 bblock-id">ogc.api.records.v1.schemas.recordGeoJSON</small>
@@ -250,7 +274,7 @@
                                     </span>
                                 </button>
                             </h2>
-                            <div class="accordion-collapse collapse " id="bblock-collapse-10">
+                            <div class="accordion-collapse collapse " id="bblock-collapse-ogc.api.records.v1.schemas.recordGeoJSON">
                                 <div class="accordion-body">
                                         <p class="summary fw-semibold text-success">
                                             Test passed: 1 / 1
@@ -287,12 +311,14 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item bblock-report" data-bblock-id="ogc.api.records.v1.schemas.catalogs" id="bblock-11">
+                        <div class="accordion-item bblock-report" data-bblock-id="ogc.api.records.v1.schemas.catalog" id="bblock-ogc.api.records.v1.schemas.catalog">
                             <h2 class="accordion-header bblock-title">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bblock-collapse-11">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#bblock-collapse-ogc\.api\.records\.v1\.schemas\.catalog">
                                     <div class="flex-fill">
-                                        Schema for catalogs
-                                        <small class="ms-2 bblock-id">ogc.api.records.v1.schemas.catalogs</small>
+                                        Schema for catalog
+                                        <small class="ms-2 bblock-id">ogc.api.records.v1.schemas.catalog</small>
                                     </div>
 
                                     <span class="badge text-bg-success me-2">
@@ -301,15 +327,17 @@
                                     </span>
                                 </button>
                             </h2>
-                            <div class="accordion-collapse collapse " id="bblock-collapse-11">
+                            <div class="accordion-collapse collapse " id="bblock-collapse-ogc.api.records.v1.schemas.catalog">
                                 <div class="accordion-body">
                                         <div class="alert alert-info mb-0">No tests were found for this building block.</div>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item bblock-report" data-bblock-id="ogc.api.records.v1.schemas.recordsGeoJSON" id="bblock-12">
+                        <div class="accordion-item bblock-report" data-bblock-id="ogc.api.records.v1.schemas.recordsGeoJSON" id="bblock-ogc.api.records.v1.schemas.recordsGeoJSON">
                             <h2 class="accordion-header bblock-title">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bblock-collapse-12">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#bblock-collapse-ogc\.api\.records\.v1\.schemas\.recordsGeoJSON">
                                     <div class="flex-fill">
                                         Schema for recordsGeoJSON
                                         <small class="ms-2 bblock-id">ogc.api.records.v1.schemas.recordsGeoJSON</small>
@@ -321,7 +349,29 @@
                                     </span>
                                 </button>
                             </h2>
-                            <div class="accordion-collapse collapse " id="bblock-collapse-12">
+                            <div class="accordion-collapse collapse " id="bblock-collapse-ogc.api.records.v1.schemas.recordsGeoJSON">
+                                <div class="accordion-body">
+                                        <div class="alert alert-info mb-0">No tests were found for this building block.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bblock-report" data-bblock-id="ogc.api.records.v1.schemas.catalogs" id="bblock-ogc.api.records.v1.schemas.catalogs">
+                            <h2 class="accordion-header bblock-title">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#bblock-collapse-ogc\.api\.records\.v1\.schemas\.catalogs">
+                                    <div class="flex-fill">
+                                        Schema for catalogs
+                                        <small class="ms-2 bblock-id">ogc.api.records.v1.schemas.catalogs</small>
+                                    </div>
+
+                                    <span class="badge text-bg-success me-2">
+                                            Passed
+                                            (no tests)
+                                    </span>
+                                </button>
+                            </h2>
+                            <div class="accordion-collapse collapse " id="bblock-collapse-ogc.api.records.v1.schemas.catalogs">
                                 <div class="accordion-body">
                                         <div class="alert alert-info mb-0">No tests were found for this building block.</div>
                                 </div>
@@ -341,6 +391,13 @@
                         accordionEntries.forEach(e => e.classList.remove('show'));
                     }
                 });
+                if (location.hash.startsWith('#bblock-')) {
+                    const highlight = document.querySelector(location.hash.replaceAll('.', '\\.'));
+                    if (highlight) {
+                        highlight.querySelector('.accordion-collapse').classList.add('show');
+                        highlight.classList.add('highlighted');
+                    }
+                }
             });
         </script>
     </body>

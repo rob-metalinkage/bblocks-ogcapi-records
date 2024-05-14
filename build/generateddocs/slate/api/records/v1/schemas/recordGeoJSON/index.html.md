@@ -47,9 +47,6 @@ OGC API Record schema as a building block, with documented examples.
 ```json
 {
   "id": "urn:x-wmo:md:int.wmo.wis::https://geo.woudc.org/def/data/ozone/total-column-ozone/totalozone",
-  "conformsTo": [
-    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
-  ],
   "type": "Feature",
   "time": {
     "interval": [ "1924-08-17T00:00:00Z", ".."],
@@ -82,6 +79,9 @@ OGC API Record schema as a building block, with documented examples.
       ]
     ]
   },
+  "conformsTo": [
+     "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
   "properties": {
     "created": "2021-02-08T00:00:00Z",
     "updated": "2021-02-08T00:00:00Z",
@@ -292,9 +292,6 @@ OGC API Record schema as a building block, with documented examples.
 ```jsonld
 {
   "id": "urn:x-wmo:md:int.wmo.wis::https://geo.woudc.org/def/data/ozone/total-column-ozone/totalozone",
-  "conformsTo": [
-    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
-  ],
   "type": "Feature",
   "time": {
     "interval": [
@@ -330,6 +327,9 @@ OGC API Record schema as a building block, with documented examples.
       ]
     ]
   },
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
   "properties": {
     "created": "2021-02-08T00:00:00Z",
     "updated": "2021-02-08T00:00:00Z",
@@ -555,24 +555,24 @@ OGC API Record schema as a building block, with documented examples.
             dct:type "image/png" ;
             ns1:relation <http://www.iana.org/assignments/relation/preview> ;
             oa:hasTarget <https://woudc.org/data/preview.png> ],
-        [ rdfs:label "Static dataset archive file" ;
-            dct:type "application/zip" ;
-            ns1:relation <http://www.iana.org/assignments/relation/enclosure> ;
-            oa:hasTarget <https://woudc.org/archive/Summaries/dataset-snapshots/totalozone.zip> ],
-        [ rdfs:label "Data Search / Download User Interface" ;
-            dct:type "text/html" ;
-            ns1:relation <http://www.iana.org/assignments/relation/search> ;
-            oa:hasTarget <https://woudc.org/data/explore.php?dataset=totalozone> ],
-        [ rdfs:label "OGC Web Feature Service (WFS)" ;
-            dct:type "application/xml" ;
-            ns1:relation <http://www.iana.org/assignments/relation/service> ;
-            oa:hasTarget <https://geo.woudc.org/ows> ],
         [ rdfs:label "This document as HTML" ;
             dct:type "text/html" ;
             ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
             oa:hasTarget <https://woudc.org/data/dataset_info.php?id=totalozone> ],
         [ ns1:relation <http://www.iana.org/assignments/relation/license> ;
             oa:hasTarget <https://woudc.org/about/data-policy.php> ],
+        [ rdfs:label "Data Search / Download User Interface" ;
+            dct:type "text/html" ;
+            ns1:relation <http://www.iana.org/assignments/relation/search> ;
+            oa:hasTarget <https://woudc.org/data/explore.php?dataset=totalozone> ],
+        [ rdfs:label "Static dataset archive file" ;
+            dct:type "application/zip" ;
+            ns1:relation <http://www.iana.org/assignments/relation/enclosure> ;
+            oa:hasTarget <https://woudc.org/archive/Summaries/dataset-snapshots/totalozone.zip> ],
+        [ rdfs:label "OGC Web Feature Service (WFS)" ;
+            dct:type "application/xml" ;
+            ns1:relation <http://www.iana.org/assignments/relation/service> ;
+            oa:hasTarget <https://geo.woudc.org/ows> ],
         [ rdfs:label "Web Accessible Folder (WAF)" ;
             dct:type "text/html" ;
             ns1:relation <http://www.iana.org/assignments/relation/enclosure> ;

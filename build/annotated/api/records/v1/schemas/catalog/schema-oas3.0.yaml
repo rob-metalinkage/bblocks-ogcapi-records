@@ -234,7 +234,7 @@ x-defs:
           bbox:
             type: array
             items:
-              ref: bblocks://ogc.geo.common.data_types.bounding_box
+              $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema-oas3.0.yaml#/x-defs/ogc.geo.common.data_types.bounding_box
           crs:
             description: 'Coordinate reference system of the coordinates in the spatial
               extent
@@ -320,5 +320,15 @@ x-defs:
             - http://www.opengis.net/def/uom/ISO-8601/0/Gregorian
             default: http://www.opengis.net/def/uom/ISO-8601/0/Gregorian
     x-schema-source: https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/extent/schema.yaml
+  ogc.geo.common.data_types.bounding_box:
+    type: array
+    oneOf:
+    - minItems: 4
+      maxItems: 4
+    - minItems: 6
+      maxItems: 6
+    items:
+      type: number
+    x-schema-source: https://opengeospatial.github.io/bblocks/annotated-schemas/geo/common/data_types/bounding_box/schema.yaml
 allOf:
 - $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/catalog/schema-oas3.0.yaml#/x-defs/_github_workspace_build_annotated_api_records_v1_schemas_catalog_schema.yaml

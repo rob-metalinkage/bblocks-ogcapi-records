@@ -16,7 +16,7 @@ x-defs:
     x-schema-version: https://json-schema.org/draft/2020-12/schema
     x-schema-source: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/recordsGeoJSON/schema-oas3.0.yaml
   ogc.api.features.v1.schemas.collections:
-    $comment: https://schemas.opengis.net/ogcapi/features/part1/1.0/openapi/schemas/collections.yaml
+    $comment: Adapted from https://schemas.opengis.net/ogcapi/features/part1/1.0/openapi/schemas/collections.yaml
     type: object
     properties:
       links:
@@ -995,7 +995,7 @@ x-defs:
           bbox:
             type: array
             items:
-              ref: bblocks://ogc.geo.common.data_types.bounding_box
+              $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/recordsGeoJSON/schema-oas3.0.yaml#/x-defs/ogc.geo.common.data_types.bounding_box
           crs:
             description: 'Coordinate reference system of the coordinates in the spatial
               extent
