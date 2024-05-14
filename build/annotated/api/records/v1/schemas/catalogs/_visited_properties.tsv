@@ -48,27 +48,63 @@ path	@id
 /collections/created	
 /collections/updated	
 /collections/contacts	
-/collections/contacts/code	
+/collections/contacts/identifier	
 /collections/contacts/name	
-/collections/contacts/alternate	
-/collections/contacts/dir	
+/collections/contacts/position	
+/collections/contacts/organization	
+/collections/contacts/logo	
+/collections/contacts/logo/href	http://www.w3.org/ns/oa#hasTarget
+/collections/contacts/logo/rel	http://www.iana.org/assignments/relation
+/collections/contacts/logo/anchor	
+/collections/contacts/logo/type	http://purl.org/dc/terms/type
+/collections/contacts/logo/hreflang	http://purl.org/dc/terms/language
+/collections/contacts/logo/title	http://www.w3.org/2000/01/rdf-schema#label
+/collections/contacts/logo/length	http://purl.org/dc/terms/extent
+/collections/contacts/phones	
+/collections/contacts/phones/value	
+/collections/contacts/phones/roles	
+/collections/contacts/emails	
+/collections/contacts/emails/value	
+/collections/contacts/emails/roles	
+/collections/contacts/addresses	
+/collections/contacts/addresses/deliveryPoint	
+/collections/contacts/addresses/city	
+/collections/contacts/addresses/administrativeArea	
+/collections/contacts/addresses/postalCode	
+/collections/contacts/addresses/country	
+/collections/contacts/addresses/roles	
+/collections/contacts/links	
+/collections/contacts/links/href	http://www.w3.org/ns/oa#hasTarget
+/collections/contacts/links/rel	http://www.iana.org/assignments/relation
+/collections/contacts/links/anchor	
+/collections/contacts/links/type	http://purl.org/dc/terms/type
+/collections/contacts/links/hreflang	http://purl.org/dc/terms/language
+/collections/contacts/links/title	http://www.w3.org/2000/01/rdf-schema#label
+/collections/contacts/links/length	http://purl.org/dc/terms/extent
+/collections/contacts/hoursOfService	
+/collections/contacts/contactInstructions	
+/collections/contacts/roles	
 /collections/themes	
-/collections/themes/code	
-/collections/themes/name	
-/collections/themes/alternate	
-/collections/themes/dir	
+/collections/themes/concepts	
+/collections/themes/concepts/id	
+/collections/themes/concepts/title	
+/collections/themes/concepts/description	
+/collections/themes/concepts/url	
+/collections/themes/scheme	
 /collections/license	
-/collections/license/code	
-/collections/license/name	
-/collections/license/alternate	
-/collections/license/dir	
 /collections/rights	
 /collections/conformsTo	
 /collections/linkTemplates	
-/collections/linkTemplates/code	
-/collections/linkTemplates/name	
-/collections/linkTemplates/alternate	
-/collections/linkTemplates/dir	
+/collections/linkTemplates/rel	
+/collections/linkTemplates/type	
+/collections/linkTemplates/hreflang	
+/collections/linkTemplates/title	
+/collections/linkTemplates/length	
+/collections/linkTemplates/created	
+/collections/linkTemplates/updated	
+/collections/linkTemplates/uriTemplate	
+/collections/linkTemplates/varBase	
+/collections/linkTemplates/variables	
 /linkTemplates	
 /linkTemplates/rel	
 /linkTemplates/type	

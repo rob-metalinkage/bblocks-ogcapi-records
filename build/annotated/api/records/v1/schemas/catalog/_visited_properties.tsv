@@ -39,24 +39,60 @@ path	@id
 /created	
 /updated	
 /contacts	
-/contacts/code	
+/contacts/identifier	
 /contacts/name	
-/contacts/alternate	
-/contacts/dir	
+/contacts/position	
+/contacts/organization	
+/contacts/logo	
+/contacts/logo/href	http://www.w3.org/ns/oa#hasTarget
+/contacts/logo/rel	http://www.iana.org/assignments/relation
+/contacts/logo/anchor	
+/contacts/logo/type	http://purl.org/dc/terms/type
+/contacts/logo/hreflang	http://purl.org/dc/terms/language
+/contacts/logo/title	http://www.w3.org/2000/01/rdf-schema#label
+/contacts/logo/length	http://purl.org/dc/terms/extent
+/contacts/phones	
+/contacts/phones/value	
+/contacts/phones/roles	
+/contacts/emails	
+/contacts/emails/value	
+/contacts/emails/roles	
+/contacts/addresses	
+/contacts/addresses/deliveryPoint	
+/contacts/addresses/city	
+/contacts/addresses/administrativeArea	
+/contacts/addresses/postalCode	
+/contacts/addresses/country	
+/contacts/addresses/roles	
+/contacts/links	
+/contacts/links/href	http://www.w3.org/ns/oa#hasTarget
+/contacts/links/rel	http://www.iana.org/assignments/relation
+/contacts/links/anchor	
+/contacts/links/type	http://purl.org/dc/terms/type
+/contacts/links/hreflang	http://purl.org/dc/terms/language
+/contacts/links/title	http://www.w3.org/2000/01/rdf-schema#label
+/contacts/links/length	http://purl.org/dc/terms/extent
+/contacts/hoursOfService	
+/contacts/contactInstructions	
+/contacts/roles	
 /themes	
-/themes/code	
-/themes/name	
-/themes/alternate	
-/themes/dir	
+/themes/concepts	
+/themes/concepts/id	
+/themes/concepts/title	
+/themes/concepts/description	
+/themes/concepts/url	
+/themes/scheme	
 /license	
-/license/code	
-/license/name	
-/license/alternate	
-/license/dir	
 /rights	
 /conformsTo	
 /linkTemplates	
-/linkTemplates/code	
-/linkTemplates/name	
-/linkTemplates/alternate	
-/linkTemplates/dir	
+/linkTemplates/rel	
+/linkTemplates/type	
+/linkTemplates/hreflang	
+/linkTemplates/title	
+/linkTemplates/length	
+/linkTemplates/created	
+/linkTemplates/updated	
+/linkTemplates/uriTemplate	
+/linkTemplates/varBase	
+/linkTemplates/variables	
